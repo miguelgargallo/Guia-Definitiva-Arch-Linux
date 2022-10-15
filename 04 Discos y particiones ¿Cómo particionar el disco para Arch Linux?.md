@@ -16,13 +16,13 @@ por eso se ejecuta "lsblk" para daros cuenta de esto
 
 Aquí nos dará los discos
 
-NAME        MAJ:MIN RM   SIZE RO TYPE MOUNTPOINTS
-nvme0n1     259:0    0 953.9G  0 disk 
-├─nvme0n1p1 259:1    0   100M  0 part 
-├─nvme0n1p2 259:2    0    16M  0 part 
-├─nvme0n1p3 259:3    0 382.8G  0 part 
-├─nvme0n1p4 259:4    0   627M  0 part 
-├─nvme0n1p5 259:5    0 570.3G  0 part 
+    NAME        MAJ:MIN RM   SIZE RO TYPE MOUNTPOINTS
+    nvme0n1     259:0    0 953.9G  0 disk 
+    ├─nvme0n1p1 259:1    0   100M  0 part 
+    ├─nvme0n1p2 259:2    0    16M  0 part 
+    ├─nvme0n1p3 259:3    0 382.8G  0 part 
+    ├─nvme0n1p4 259:4    0   627M  0 part 
+    └─nvme0n1p5 259:5    0 570.3G  0 part 
 
 Paso 2: Le damos a new, y creamos 3 particiones, una detrás de otra de forma ordendada
 
@@ -32,15 +32,15 @@ Paso 2: Le damos a new, y creamos 3 particiones, una detrás de otra de forma or
 
 Así es como nos debe de quedar, pensad que nosotros partimos de este punto:
 
-NAME        MAJ:MIN RM   SIZE RO TYPE MOUNTPOINTS
-nvme0n1     259:0    0 953.9G  0 disk 
-├─nvme0n1p1 259:1    0   100M  0 part 
-├─nvme0n1p2 259:2    0    16M  0 part 
-├─nvme0n1p3 259:3    0 382.8G  0 part 
-├─nvme0n1p4 259:4    0   627M  0 part 
-├─nvme0n1p5 259:5    0 408.3G  0 part 
-├─nvme0n1p6 259:6    0   512M  0 part /boot
-├─nvme0n1p7 259:7    0   157G  0 part /
-└─nvme0n1p8 259:8    0   4.5G  0 part [SWAP]
+    NAME        MAJ:MIN RM   SIZE RO TYPE MOUNTPOINTS
+    nvme0n1     259:0    0 953.9G  0 disk 
+    ├─nvme0n1p1 259:1    0   100M  0 part 
+    ├─nvme0n1p2 259:2    0    16M  0 part 
+    ├─nvme0n1p3 259:3    0 382.8G  0 part 
+    ├─nvme0n1p4 259:4    0   627M  0 part 
+    ├─nvme0n1p5 259:5    0 408.3G  0 part 
+    ├─nvme0n1p6 259:6    0   512M  0 part /boot
+    ├─nvme0n1p7 259:7    0   157G  0 part /
+    └─nvme0n1p8 259:8    0   4.5G  0 part [SWAP]
 
 Paso 2: Ejecutamos 
