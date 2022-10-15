@@ -11,9 +11,9 @@ Paso 2: Creamos una contraseña
     P4S$W03D
 
 
-Siguiente capítulo: CONTINUARA
+Siguiente capítulo:
 
-[00 Readme o Índice](https://github.com/miguelgargallo/Guia-Definitiva-Arch-Linux) ✅
+[07 Usuarios y Grupos ¿Cómo crear usuarios en grupos en Arch Linux?](https://github.com/miguelgargallo/Guia-Definitiva-Arch-Linux/blob/main/07%20Usuarios%20y%20Grupos%20%C2%BFC%C3%B3mo%20crear%20usuarios%20en%20grupos%20en%20Arch%20Linux%3F.md) 🔵
 
 Volver al capítulo anterior:
 

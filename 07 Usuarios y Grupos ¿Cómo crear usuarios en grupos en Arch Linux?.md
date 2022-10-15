@@ -34,9 +34,9 @@ Paso 8: Descomentamos la linea de abajo a la que dice "## Uncomment to allow mem
 
     %wheel ALL=(ALL:ALL) ALL
 
-Siguiente capítulo: CONTINUARA
+Siguiente capítulo:
 
-[00 Readme o Índice](https://github.com/miguelgargallo/Guia-Definitiva-Arch-Linux) ✅
+[08 Idiomas ¿Cómo añadir mi idioma?](https://github.com/miguelgargallo/Guia-Definitiva-Arch-Linux/blob/main/08%20Idiomas%20%C2%BFC%C3%B3mo%20a%C3%B1adir%20mi%20idioma%3F.md) 🔵
 
 Volver al capítulo anterior:
 
