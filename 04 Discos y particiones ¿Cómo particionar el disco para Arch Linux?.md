@@ -1,6 +1,6 @@
 # 04 Discos y particiones ¿Cómo particionar el disco para Arch Linux?
 
-Paso 1: Ponemos el teclado en castellano, español, spanish:
+Paso 1: Ponemos el teclado en español:
 
     loadkeys es
 
