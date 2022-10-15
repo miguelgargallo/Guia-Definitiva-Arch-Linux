@@ -6,12 +6,9 @@
 
 ## Estas son las dos opciones:
 
-[Formas de descargar Arch Linux - Guia Definitiva Linux Arch](https://user-images.githubusercontent.com/5947268/195991536-231dc928-b805-434c-b465-63234afd5ea4.png)
+[Formas de descargar Arch Linux - Guia Definitiva Linux Arch](https://user-images.githubusercontent.com/5947268/195991565-8c80c429-3a9c-4a88-95eb-b28f1723255a.png)
 
-file:///home/monty/Pictures/Screenshots/01%20Descarga%20Linux%20Arch%20-%20Guia%20Definitiva%20Linux%20Arch%20-%20Miguel%20Gargallo.png![image](https://user-images.githubusercontent.com/5947268/195991565-8c80c429-3a9c-4a88-95eb-b28f1723255a.png)
-
-
-#### Fuente
+Fuente
 
     https://archlinux.org/download/
 
