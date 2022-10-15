@@ -6,12 +6,7 @@
 
 ## Estas son las dos opciones:
 
-[Formas de descargar Arch Linux - Guia Definitiva Linux Arch](https://user-images.githubusercontent.com/5947268/195990998-c771f432-8db6-45bf-ac60-b97a54cf1d27.png)
-
-BitTorrent Download (recommended)
-
-If you can spare the bytes, please leave the client open after your download is finished, so you can seed it back to others.
-A DHT capable client is required. A WebSeed capable client is recommended for fastest download speeds.
+[Formas de descargar Arch Linux - Guia Definitiva Linux Arch](https://user-images.githubusercontent.com/5947268/195991536-231dc928-b805-434c-b465-63234afd5ea4.png)
 
 #### Fuente
 
