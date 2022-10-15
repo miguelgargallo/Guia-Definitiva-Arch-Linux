@@ -12,6 +12,18 @@ Paso 3:
 
     systemctl enable NetworkManager
 
+Paso 4: Opcional, comprobamos que funcione:
+
+    ping -c 3 apple.de
+
+Paso 5: Arrancar wpa supplicant para WPA, WPA2 and WPA3 (IEEE 802.11i)
+
+    systemctl start wpa_supplicant.service
+
+Paso 6: Habilitamos wpa supplicant en el systema
+
+    systemctl enable wpa_supplicant.service
+
 Siguiente capítulo:
 
 [16 Interfaz grafica ¿Cómo instalar la interfaz grafica en Arch Linux?](https://github.com/miguelgargallo/Guia-Definitiva-Arch-Linux/blob/main/16%20Interfaz%20grafica%20%C2%BFC%C3%B3mo%20instalar%20la%20interfaz%20grafica%20en%20Arch%20Linux%3F.md) 🔵
