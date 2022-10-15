@@ -2,6 +2,15 @@
 
 Paso 1: 
 
+    sudo su
+    
+Paso 2:
+
+    systemctl start NetworkManager.service
+
+Paso 3:
+
+    systemctl enable NetworkManager
 
 Siguiente capítulo:
 
