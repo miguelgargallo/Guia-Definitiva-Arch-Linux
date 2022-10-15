@@ -1,18 +1,42 @@
 # 17 Repos y AUR ¿Cómo expandir nuestra capacidad de instalar mas cosas con repos y AUR en Arch Linux?
 
-Paso 1: Al reiniciar nos saldrá que pongamos nuestro nombre de usuario
+Paso 1: Instalamos con pacman git, le damos a enter, con la tecla enter del teclado
 
-    hagrid
+    pacman -S git
 
-Paso 2: Introducimos la contraseña
+Paso 2: Le decimso que si, escribiendo "y"
 
-    W03DMEgaFuerte
+    y
 
+Paso 3: En nuestro usuario, en desktop creamos una carpeta que se llame repos:
 
+    mkdir -p Desktop/monty/repos
 
-Siguiente capítulo: CONTINUARA
+Paso 4: Entramos en la carpeta:
 
-[00 Readme o Índice](https://github.com/miguelgargallo/Guia-Definitiva-Arch-Linux) ✅
+    cd !$
+
+Paso 5: instalamos aur:
+
+    git clone https://aur.archlinux.org/paru-bin.git
+
+Paso 6: Entramos dentro para ejecutarlo:
+
+    cd paru-bin/
+
+Paso 7: Ejecutamos paru-bin
+
+    makepkg -si
+
+Paso 8: Introducimos la contraseña y escribimos "y"
+
+    y
+
+Paso 9: Instalamos repositorios de blackarch
+
+Siguiente capítulo:
+
+[17 Interfaz grafica ¿Cómo instalar la interfaz grafica en Arch Linux?](https://github.com/miguelgargallo/Guia-Definitiva-Arch-Linux/blob/main/17%20Interfaz%20grafica%20%C2%BFC%C3%B3mo%20instalar%20la%20interfaz%20grafica%20en%20Arch%20Linux%3F.md) 🔵
 
 Volver al capítulo anterior:
 
@@ -59,6 +83,8 @@ Volver al Índice:
 
 [15 Internet ¿Cómo añadir internet a la máquina en Arch Linux?](https://github.com/miguelgargallo/Guia-Definitiva-Arch-Linux/blob/main/15%20Internet%20%C2%BFC%C3%B3mo%20a%C3%B1adir%20internet%20a%20la%20m%C3%A1quina%20en%20Arch%20Linux%3F.md) ✅
 
-[16 Interfaz grafica ¿Cómo instalar la interfaz grafica en Arch Linux?](https://github.com/miguelgargallo/Guia-Definitiva-Arch-Linux/blob/main/16%20Interfaz%20grafica%20%C2%BFC%C3%B3mo%20instalar%20la%20interfaz%20grafica%20en%20Arch%20Linux%3F.md) 💙
+[16 Repos AUR y git ¿Cómo expandir nuestra capacidad de instalar mas cosas con repos y AUR y git en Arch Linux?](https://github.com/miguelgargallo/Guia-Definitiva-Arch-Linux/blob/main/16%20Repos%20AUR%20y%20git%20%C2%BFC%C3%B3mo%20expandir%20nuestra%20capacidad%20de%20instalar%20mas%20cosas%20con%20repos%20y%20AUR%20y%20git%20en%20Arch%20Linux%3F.md) 💙
+
+[17 Interfaz grafica ¿Cómo instalar la interfaz grafica en Arch Linux?](https://github.com/miguelgargallo/Guia-Definitiva-Arch-Linux/blob/main/17%20Interfaz%20grafica%20%C2%BFC%C3%B3mo%20instalar%20la%20interfaz%20grafica%20en%20Arch%20Linux%3F.md) 🔵
 
 Espero que te haya gustado este capítulo de la Guia Definitiva Arch Linux, si es así dame un follow en [twitter](https://twitter.com/miguelgargallo) para apoyarme! Fork y Fav a esta repo!

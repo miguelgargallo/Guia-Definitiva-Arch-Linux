@@ -1,37 +1,38 @@
-# 16 Interfaz grafica ¿Cómo instalar la interfaz grafica en Arch Linux?
+# 18 Instalar Blackarch ¿Cómo instalar herramientas de blackarch en nuestro arch linux?
 
-Paso 1: Instalamos xorg para la interfáz gráfica
+Paso 1: Creamos un directorio para instalar repositorios dentro de nuestro usuario:
 
-    pacman -S xorg xorg-server
+    mkdir blackarch
 
-Paso 2: Damos al enter con la tecla enter del teclado, y escrbimos "y" para aceptar:
+Paso 2: Entramos en la carpeta:
 
-    y
+    cd blackarch
 
-Paso 3: Instalamos gnome
+Paso 3: descargar un archivo de blackarch para el ejecutable:
 
-    pacman -S gnome
+    curl -O https://blackarch.org/strap.sh
 
-Paso 4: Damos a enter a todo
+Paso 4: Damos permisos de ejecución:
 
-Paso 5: Ejecutamos para inicializar el servicio de escritorio:
+    chmod +x strap.sh
 
-    systemctl start gdm.service
+Paso 5: Entramos como sudo su:
 
-Entramos en la interfaz.
+    sudo su
 
-Paso 6: Habilitamos para que a la hora de reiniciar, se inicie la interfaz:
+Paso 6: Ejecutamos strap.sh
 
-    systemctl enable gdm.service
+    ./strap.sh
 
-Paso 7: Instalamos terminal kitty.
+Paso 7: Comprobamos con pacman -Sy:
 
-    pacman -S kitty
+    pacman -Sy
 
-Paso 8: Reiniciamos
+Encontraremos blackarch entre los repositorios.
 
-    reboot now
+Paso 8: Filtramos las categorias de las herramientas para no tener repeticiones en la lista de herramientas:
 
+    pacman -Sgg | grep blackarch | awk '{print $1}' | sort -u | less
 
 Siguiente capítulo: CONTINUARA
 
@@ -85,7 +86,5 @@ Volver al Índice:
 [16 Repos AUR y git ¿Cómo expandir nuestra capacidad de instalar mas cosas con repos y AUR y git en Arch Linux?](https://github.com/miguelgargallo/Guia-Definitiva-Arch-Linux/blob/main/16%20Repos%20AUR%20y%20git%20%C2%BFC%C3%B3mo%20expandir%20nuestra%20capacidad%20de%20instalar%20mas%20cosas%20con%20repos%20y%20AUR%20y%20git%20en%20Arch%20Linux%3F.md) ✅
 
 [17 Interfaz grafica ¿Cómo instalar la interfaz grafica en Arch Linux?](https://github.com/miguelgargallo/Guia-Definitiva-Arch-Linux/blob/main/17%20Interfaz%20grafica%20%C2%BFC%C3%B3mo%20instalar%20la%20interfaz%20grafica%20en%20Arch%20Linux%3F.md) 💙
-
-
 
 Espero que te haya gustado este capítulo de la Guia Definitiva Arch Linux, si es así dame un follow en [twitter](https://twitter.com/miguelgargallo) para apoyarme! Fork y Fav a esta repo!
