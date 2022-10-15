@@ -9,7 +9,7 @@ Paso 2:
     grub-install /dev/nvme0n1
 
 
-¡Si te ha salido, no hagas los pasos de abajo y ve a por un caipirinha a celebrarlo, después del caipirinha ve al capítulo 10 que se te hará tarde sino miras el reloj!
+¡Si te ha salido, no hagas los pasos de abajo. Salta al próximo capítulo.
 
 Paso 3: Aquí a mi en su momento me dió error, vigilad, si os da error:
 
