@@ -13,13 +13,14 @@ Fuente
     https://archlinux.org/download/
 
 
+
 Siguiente capítulo:
 
 [02 Montar el USB con Rufus ¿Cómo montar usb booteable con rufus para instalar Arch Linux?](https://github.com/miguelgargallo/Guia-Definitiva-Arch-Linux/blob/main/02%20Montar%20el%20USB%20con%20Rufus%20%C2%BFC%C3%B3mo%20montar%20usb%20booteable%20con%20rufus%20para%20instalar%20Arch%20Linux%3F.md) 🔵
 
 Volver al Índice:
 
-[00 Readme o Índice](https://github.com/miguelgargallo/Guia-Definitiva-Arch-Linux) ✅
+[00 Readme o Índice](https://github.com/miguelgargallo/Guia-Definitiva-Arch-Linux)
 
 
  - Esto es lo que has hecho: ✅
