@@ -1,28 +1,15 @@
-# 12 Región y Hora ¿Cómo asignar tu región y hora?
+# 13 Instalar neofetch ¿Cómo instalar neofetch en tu Arch Linux?
 
-Paso 1: Listamos las regiones
+Paso 1: Ejecutamos pacman para instalar neofetch
 
-    timedatectl list-timezones
+    pacman -S neofetch
 
-Paso 2: Pegamos el nuestro
+Paso 2: Escribimos "y" para aceptar seguido de enter con la tecla enter del teclado
 
-    timedatectl set-timezone Europe/Andorra
+    y
 
-Paso 3: Ajustamos el timezone
 
-    ln -sf /usr/share/zoneinfo
 
-Paso 4: Presionamos la tecla tab con el teclado hasta encontrar nuestra región, Europa, Andorra y ejecutamos:
-
-    ln -sf /usr/share/zoneinfo/Europe/
-
-Paso 5 Ejecutamos para el reloj
-
-    ln -sf /usr/share/zoneinfo/Europe/Andorra /etc/localtime
-
-Paso 6: Ejecutamos hwclock para sincronizar el tiempo actual
-
-    hwclock --systohc
 
 
 Siguiente capítulo: CONTINUARA
@@ -31,7 +18,7 @@ Siguiente capítulo: CONTINUARA
 
 Volver al capítulo anterior:
 
-[09 Instalar Bootloader ¿Cómo instalar el bootloader en Arch Linux?](https://github.com/miguelgargallo/Guia-Definitiva-Arch-Linux/blob/main/09%20Instalar%20Bootloader%20%C2%BFC%C3%B3mo%20instalar%20el%20bootloader%20en%20Arch%20Linux%3F.md) ✅
+[12 Región y Hora ¿Cómo asignar tu región y hora?](https://github.com/miguelgargallo/Guia-Definitiva-Arch-Linux/blob/main/12%20Regi%C3%B3n%20y%20Hora%20%C2%BFC%C3%B3mo%20asignar%20tu%20regi%C3%B3n%20y%20hora%3F.md) ✅
 
 Volver al Índice:
 
