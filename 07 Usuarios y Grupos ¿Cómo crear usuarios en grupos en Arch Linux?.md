@@ -6,7 +6,7 @@ Paso 1: Creamos un usuario
 
 Paso 2: Ponemos una contraseña
 
-    passwd hagrid
+    passwd P4S$W03DMEgaFuerte
 
 Paso 3: Meterlo en el grupo wheel, para protegernos de no meternos en root directamente.
 
