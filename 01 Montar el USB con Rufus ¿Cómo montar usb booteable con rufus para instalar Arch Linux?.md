@@ -6,5 +6,3 @@
 
 ## He escogido la configuración:
 
-
-
