@@ -8,7 +8,13 @@ Paso 2: Escribimos "y" para aceptar seguido de enter con la tecla enter del tecl
 
     y
 
+Paso 3: Salir y reiniciar
 
+    Exit
+
+Seguido del reinicio
+
+    reboot now
 
 
 
