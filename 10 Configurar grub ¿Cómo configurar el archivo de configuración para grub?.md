@@ -1,12 +1,8 @@
-# 09 Instalar Bootloader ¿Cómo instalar el bootloader en Arch Linux?
+# 10 Configurar grub ¿Cómo configurar el archivo de configuración para grub?
 
-Paso 1: Recuerda que tu disco de particiones se puede llamar diferente, puedes comprobarlo con:
+Paso 1: Ejecutamos el comando grub-mkconfig
 
-    lsblk
-
-Paso 2: 
-
-    grub-install /dev/nvme0n1
+    grub-mkconfig -o /boot/grub/grub.cfg
 
 
 ¡Si te ha salido, no hagas los pasos de abajo y ve a por un caipirinha a celebrarlo, después del caipirinha ve al capítulo 10 que se te hará tarde sino miras el reloj!
