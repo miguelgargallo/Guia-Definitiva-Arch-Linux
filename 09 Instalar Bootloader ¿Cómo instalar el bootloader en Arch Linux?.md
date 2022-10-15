@@ -1,7 +1,35 @@
 # 09 Instalar Bootloader ¿Cómo instalar el bootloader en Arch Linux?
 
-Paso 1: 
+Paso 1: Recuerda que tu disco de particiones se puede llamar diferente, puedes comprobarlo con:
 
+    lsblk
+
+Paso 2: 
+
+    grub-install /dev/nvme0n1
+
+
+¡Si te ha salido, no hagas los pasos de abajo y ve a por un caipirinha a celebrarlo, después del caipirinha ve al capítulo 10 que se te hará tarde sino miras el reloj!
+
+Paso 3: Aquí a mi en su momento me dió error, vigilad, si os da error:
+
+    lsblk
+
+Paso 4: Después:
+
+    cd ..
+
+Paso 5: Vais a la carpeta boot, y creais un directorio llamado "efi"
+
+    cd boot
+
+Paso 6: Seguido de:
+
+    mkdir efi
+
+Paso 7: Montamos:
+
+    mount /dev/nvme0n1p6 /boot/
 
 
 

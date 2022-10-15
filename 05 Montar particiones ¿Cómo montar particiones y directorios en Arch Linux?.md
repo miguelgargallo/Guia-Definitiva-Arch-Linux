@@ -1,4 +1,4 @@
-# 05 Montar ¿Cómo montar particiones y directorios en Arch Linux?
+# 05 Montar particiones ¿Cómo montar particiones y directorios en Arch Linux?
 
 Paso 1: Montamos la root partition:
 
