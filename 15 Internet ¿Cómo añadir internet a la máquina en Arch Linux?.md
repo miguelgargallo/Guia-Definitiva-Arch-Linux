@@ -1,4 +1,4 @@
-# 15 Interfaz grafica ¿Cómo instalar la interfaz grafica en Arch Linux?
+# 15 Internet ¿Cómo añadir internet a la máquina en Arch Linux?
 
 Paso 1: 
 
