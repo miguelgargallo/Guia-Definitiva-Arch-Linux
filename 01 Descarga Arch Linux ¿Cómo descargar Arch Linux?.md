@@ -1,16 +1,26 @@
 # 01 Descarga Linux Arch - Guia Definitiva Arch Linux
 
-## Vamos al link de descarga y escojemos lo que mas se adapte a nuestro entorno inicial:
+Paso 1: Vamos al link de descarga y escojemos lo que mas se adapte a nuestro entorno inicial:
 
     https://archlinux.org/download/
 
-## Estas son las dos opciones:
+Estas son las dos opciones:
 
 ![Formas de descargar Arch Linux - Guia Definitiva Linux Arch](https://user-images.githubusercontent.com/5947268/195991600-e6d33e18-1c42-4dc0-bd5b-45800cd2e959.png)
 
 Fuente
 
     https://archlinux.org/download/
+
+Y asignamos espacio al disco duro
+
+Paso 2: Abrimos lla app de Disk Management
+
+![Asignación de espacio en el disco](https://user-images.githubusercontent.com/5947268/196024153-1abe734d-3b03-4238-bed3-04f9655ac02c.png)
+
+En este caso, asignaremos 162GB
+
+![162GB para Arch Linux](https://user-images.githubusercontent.com/5947268/196024236-41d625bf-0c12-4c4a-9194-522b3207c1a9.png)
 
 
 
