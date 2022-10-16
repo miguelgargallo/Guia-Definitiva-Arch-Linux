@@ -73,15 +73,15 @@ Paso 9: Leemos lsblk para formatear las particiones creadas:1.0.0 Guia Definitiv
 
  - Vigilad, en vuestro caso se pueden llamar diferentes, donde igual a ti te sale sda5 a mi me sale nvme0n1p6, sda6 nvme0n1p7 y sda7 nvme0n1p8 en mi caso... o bien sda por nvme0n1.
 
-Ejecutamos para formatear:.
+Ejecutamos para formatear la memoria de 512M, la primera que hemos creado.
 
     mkfs.vfat -F 32 /dev/nvme0n1p6
 
-Paso 10: Formateamos la home partition:
+Paso 10: Formateamos la home partition, la mas grande, en mi caso 157G.
 
     mkfs.ext4 /dev/nvme0n1p7
 
-Paso 11: formateamos la particion de swap:
+Paso 11: formateamos la particion de swap, la última que hemos creado.
 
     mkswap /dev/nvme0n1p8
 
