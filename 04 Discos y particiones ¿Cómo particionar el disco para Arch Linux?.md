@@ -1,5 +1,9 @@
 # 04 Discos y particiones ¿Cómo particionar el disco para Arch Linux?
 
+Truco 1: Con control L, limpias toda la pantalla.
+
+Truco 2: Con !$ puedes concatenar = juntar el comando anterior al de ahora, es decir, si hago cd Hola, para ir a la carpeta Hola, y despues ejecuto cat !$, leere lo que hay en la carpeta Hola.
+
 Paso 1: Ponemos el teclado en español:
 
     loadkeys es
