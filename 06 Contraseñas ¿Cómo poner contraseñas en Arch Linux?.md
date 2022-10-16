@@ -1,10 +1,12 @@
 # 06 Contraseñas ¿Cómo poner contraseñas en Arch Linux?
 
-Paso 1: Entramos al sistema
+Paso 1: Entramos al sistema:
 
     arch-chroot /mnt
 
-Paso 2: Creamos una contraseña
+Paso 2: Creamos una contraseña ejecutando:
+
+    passwd
 
 > New password
 
