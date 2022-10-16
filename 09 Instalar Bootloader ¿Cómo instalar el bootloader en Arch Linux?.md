@@ -4,9 +4,41 @@ Paso 1: Recuerda que tu disco de particiones se puede llamar diferente, puedes c
 
     lsblk
 
-Paso 2: 
+Paso 2: Creamos la carpeta en efi dentro de boot:
 
-    grub-install /dev/nvme0n1
+    mkdir /boot/efi
+
+Paso 3: Mostramos con lsblk los discos:
+
+    lsblk
+
+Paso 4: Montamos en la primera partición, en mi caso nvme0n1p1 el directorio, /boot/efi
+
+    mount /dev/nvme0n1p1 /boot/efi
+
+Paso 5: Instalamos con pacman, el efibootmanager:
+
+    pacman -S grub efibootmgr dosfstools mtools
+
+Paso 6: Editamos /etc/default/grub:
+
+    nano /etc/default/grub
+
+Paso 7: Vamos a descomentar la última linea, que dice así:
+
+    GRUB_DISABLE_OS_PROBER=false
+
+Paso 8: Instalamos os-prober:
+
+    pacman -S os-prober
+
+Paso 9: Instalamos designando nuestra arquitectura:
+
+    grub-install --target=x86_64-efi --bootloader-id=grub_uefi --recheck
+
+Paso 10: Generamos un archivo de comfiguración:
+
+    grub-mkconfig -o /boot/grub/grub.cfg
 
 
 ¡Si te ha salido, no hagas los pasos de abajo. Salta al próximo capítulo.
