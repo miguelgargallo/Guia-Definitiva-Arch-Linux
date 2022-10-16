@@ -1,6 +1,6 @@
 # 16 Interfaz grafica ¿Cómo instalar la interfaz grafica en Arch Linux?
 
-Paso 1: Instalamos xorg para la interfáz gráfica
+Paso 1: Instalamos xorg para la interfáz gráfica:
 
     pacman -S xorg xorg-server
 
@@ -8,27 +8,38 @@ Paso 2: Damos al enter con la tecla enter del teclado, y escrbimos "y" para acep
 
     y
 
-Paso 3: Instalamos gnome
+Paso 3: Instalamos gnome:
 
     pacman -S gnome
 
-Paso 4: Damos a enter a todo
+Paso 4: Damos a enter a todo:
 
-Paso 5: Ejecutamos para inicializar el servicio de escritorio:
+Paso 5: Ejecutamos para inicializar el servicio de escritorio y nos esperamos, esto cargará la pantalla de login y la interfaz!
 
     systemctl start gdm.service
 
-Entramos en la interfaz.
+Paso 6: En el escritorio, con la tecla windows presionamos 1 vez, soltamos, escribimos "terminal" y sino se enciende la app, instalaremos mas adelante la terminal de kitty.
 
-Paso 6: Habilitamos para que a la hora de reiniciar, se inicie la interfaz:
+Paso 7: Salimos con control alt f2:
+
+    control + alt + F2
+
+Paso 8: Entramos con nuestras credenciales y nos vamos a root:
+
+ - Primero nombre de usuario.
+ - Luego contraseña y finaltmente después:
+
+    sudo su
+
+Paso 9: Habilitamos para que a la hora de reiniciar, se inicie la interfaz:
 
     systemctl enable gdm.service
 
-Paso 7: Instalamos terminal kitty.
+Paso 10: sino nos iba la terminal en el paso : Instalamos la terminal terminal kitty.
 
     pacman -S kitty
 
-Paso 8: Reiniciamos
+Paso 11: Reiniciamos
 
     reboot now
 
