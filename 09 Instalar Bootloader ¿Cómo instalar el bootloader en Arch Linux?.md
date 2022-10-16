@@ -36,37 +36,6 @@ Paso 9: Instalamos designando nuestra arquitectura:
 
     grub-install --target=x86_64-efi --bootloader-id=grub_uefi --recheck
 
-Paso 10: Generamos un archivo de comfiguración:
-
-    grub-mkconfig -o /boot/grub/grub.cfg
-
-
-¡Si te ha salido, no hagas los pasos de abajo. Salta al próximo capítulo.
-
-Paso 3: Aquí a mi en su momento me dió error, vigilad, si os da error:
-
-    lsblk
-
-Paso 4: Después:
-
-    cd ..
-
-Paso 5: Vais a la carpeta boot, y creais un directorio llamado "efi"
-
-    cd boot
-
-Paso 6: Seguido de:
-
-    mkdir efi
-
-Paso 7: Montamos:
-
-    mount /dev/nvme0n1p6 /boot/efi/
-
-Paso 8: Listamos las particiones
-
-    lsblk
-
 
 Siguiente capítulo:
 
