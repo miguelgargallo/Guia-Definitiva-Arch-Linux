@@ -8,22 +8,23 @@ Paso 2: Creamos directorio boot:
 
     mkdir /mnt/boot
 
-Paso 3: En mi caso, me daba error, porque no estaba en directorio correcto, he tenido que hacer cd.. y lugo ls, y cuando he podido ver la carpeta home, me he dirigido a mnt, y he hecho:
-
-    mkdir boot
-
-Paso 4: ejecutamos el comando mount, para enviar la partición boot al directorio deseado:
+Paso 3: ejecutamos el comando mount, para enviar la partición boot al directorio deseado:
 
     mount /dev/nvme0n1p6 /mnt/boot
 
-Paso 5: comando pacstrap, para instalar algunos paquetes:
+Paso 4: comando pacstrap, para instalar algunos paquetes:
 
     pacstrap /mnt linux linux-firmware networkmanager grub wpa_supplicant base base-devel
 
-Paso 6: Con el comando genfstab -U crearemos el pequeño archivo que especifica el arbol de ruta de particiones del disco:
+Paso 5: Con el comando genfstab -U crearemos el pequeño archivo que especifica el arbol de ruta de particiones del disco:
+
+Primero lo creamos
+
+    genfstab -U /mnt
+
+y ahora lo movemos:
 
     genfstab -U /mnt > /mnt/etc/fstab
-
 
 Siguiente capítulo:
 
