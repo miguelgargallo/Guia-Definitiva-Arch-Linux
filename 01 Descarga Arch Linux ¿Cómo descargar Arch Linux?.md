@@ -14,8 +14,7 @@ Fuente
 
 Arch Linux no pesa poco mas de 700MB
 
-![Arch Linux no pesa poco mas de 700MB](https://user-images.githubusercontent.com/5947268/196024363-ec5e030d-1132-43ec-ad48-9a8eec715141.png)
-
+![Arch Linux no pesa poco mas de 700MB](https://user-images.githubusercontent.com/5947268/196024432-0378fe5e-fb3d-4f97-b98b-36d333294dd1.png)
 Y asignamos espacio al disco duro
 
 Paso 2: Abrimos lla app de Disk Management
