@@ -1,22 +1,22 @@
 # 08 Idiomas ¿Cómo añadir mi idioma?
 
-Paso 1: Vamos a Locale.gen en etc
+Paso 1: Vamos a Locale.gen en etc:
 
     nano /etc/locale.gen
 
-Paso 2: Buscamos con Control W, en_us y es_Es
+Paso 2: Buscamos con Control W, en_US y es_ES:
 
-    Los descomentamos las dos lineas
+    Descomentamos las dos lineas
 
-Paso 3: Ejecutamos locale gen
+Paso 3: Ejecutamos locale gen:
 
     locale-gen
 
-Paso 4: Editamos el archivo de inicio para que se cargue el sistema con el lenguaje español
+Paso 4: Editamos el archivo de inicio para que se cargue el sistema con el lenguaje español:
 
     nano /etc/vconsole.conf
 
-Paso 5: Escribimos Keymap Es
+Paso 5: Escribimos Keymap Es:
 
     KEYMAP=es
 
