@@ -1,6 +1,8 @@
 # Guia Definitiva Arch Linux
 Guia Definitiva Arch Linux
 
+![Guia Definitiva Arch Linux](https://user-images.githubusercontent.com/5947268/196032890-2f9cc3b8-89dc-418e-9f13-d94d4ee9ef39.jpg)
+
  - Esto es lo que has hecho: ✅
  - Tu estás aquí: 💙
  - Esto es lo que te falta por leer: 🔵
