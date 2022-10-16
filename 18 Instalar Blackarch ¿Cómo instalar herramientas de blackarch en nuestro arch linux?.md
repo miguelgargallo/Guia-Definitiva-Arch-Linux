@@ -1,12 +1,14 @@
 # 18 Instalar Blackarch ¿Cómo instalar herramientas de blackarch en nuestro arch linux?
 
+En la carpeta de repos:
+
 Paso 1: Creamos un directorio para instalar repositorios dentro de nuestro usuario:
 
     mkdir blackarch
 
 Paso 2: Entramos en la carpeta:
 
-    cd blackarch
+    cd !$
 
 Paso 3: descargar un archivo de blackarch para el ejecutable:
 

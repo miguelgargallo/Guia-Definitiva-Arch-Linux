@@ -8,31 +8,34 @@ Paso 2: Le decimso que si, escribiendo "y"
 
     y
 
-Paso 3: En nuestro usuario, en desktop creamos una carpeta que se llame repos:
+Paso 3: Entramos con nuestro usuario, asi que salimos:
+
+    exit
+
+Paso 4: En nuestro usuario, en desktop creamos una carpeta que se llame repos:
 
     mkdir -p Desktop/monty/repos
 
-Paso 4: Entramos en la carpeta:
+Paso 5: Entramos en la carpeta repos:
 
     cd !$
 
-Paso 5: instalamos aur:
+Paso 6: instalamos aur:
 
     git clone https://aur.archlinux.org/paru-bin.git
 
-Paso 6: Entramos dentro para ejecutarlo:
+Paso 7: Entramos dentro para ejecutarlo:
 
-    cd paru-bin/
+    cd paru-bin
 
-Paso 7: Ejecutamos paru-bin
+Paso 8: Ejecutamos paru-bin
 
     makepkg -si
 
-Paso 8: Introducimos la contraseña y escribimos "y"
+Paso 9: Introducimos la contraseña y escribimos "y"
 
     y
 
-Paso 9: Instalamos repositorios de blackarch
 
 Siguiente capítulo:
 
