@@ -14,7 +14,7 @@ Paso 3:
 
 Paso 4: Opcional, comprobamos que funcione:
 
-    ping -c 3 apple.de
+    ping -c 3 pencil.li
 
 Paso 5: Arrancar wpa supplicant para WPA, WPA2 and WPA3 (IEEE 802.11i)
 
