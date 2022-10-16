@@ -11,6 +11,8 @@ Paso 2: o extra, pingueamos si tenemos internet:
 Paso 1: Escribimos lsblk para listar todos los discos, este es un tutorial, orientado a instalar el SO tanto a ordenador físico como VMWare, marcaré los pasasos de virtual cuando toque, así que no te preocupes.
 
     lsblk
+
+Miramos como se llama el grupo de particiones:
     
 En el caso de máquina virtual nos saltará el prompt en la CLI, escojemos "dos" y le damos a continuar.
 
@@ -30,6 +32,26 @@ Aquí nos dará los discos:
 
 Paso 3: Le damos a new, y creamos 3 particiones, una detrás de otra de forma ordendada:
 
+    cfdisk /dev/nvme0n1
+
+Paso 4: Nos dirigimosnos dirigimos a la opción de color verde que corresponde a: "Free Space", y le damoms a New. En su defecto, Enter  con la tecla enter del teclado, porque así viene predefinido en el menú de abajo, o sino, nos movemos con las felchas del teclado.
+
+    512M
+
+Paso 5: Creamos otra partición, en estw caso, del total de la memória principal, es decir, "la tocha" -4.5gb.
+
+    157G
+
+Paso 6: Los 4.5 GB que queden restantes, si lo hemos hecho bien.
+
+    4.5G
+
+Paso 7: Con la última seleccionada, con las flechitas del teclado, en el menú, nos dirigimos a la opción "type" y buscamos "Linux Swap", damos a enter.
+
+Paso 8: Nos desplazamos en el menú hasta la opción write y le damos a enter y le decimos "yes".
+
+    yes
+
   - Una de 512M
   - Otra de el total de tu memoria, -4.5GB es decir, en mi caso 157GB
   - Y la última, de 4.5GB para el swap vram
@@ -47,13 +69,7 @@ Así es como nos debe de quedar, pensad que nosotros partimos de este punto:
     ├─nvme0n1p7 259:7    0   157G  0 part /
     └─nvme0n1p8 259:8    0   4.5G  0 part [SWAP]
 
-Paso 4: Seleccionamos la última, vamos a Type, y buscamos Linux Swap:
-
-Paso 5: Le damos a write:
-
-Paso 6: Quit
-
-Paso 7: Leemos lsblk para formatear las particiones creadas:1.0.0 Guia Definitiva Arch Linux
+Paso 9: Leemos lsblk para formatear las particiones creadas:1.0.0 Guia Definitiva Arch Linux
 
  - Vigilad, en vuestro caso se pueden llamar diferentes, donde igual a ti te sale sda5 a mi me sale nvme0n1p6, sda6 nvme0n1p7 y sda7 nvme0n1p8 en mi caso... o bien sda por nvme0n1.
 
