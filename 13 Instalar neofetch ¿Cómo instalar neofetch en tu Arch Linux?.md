@@ -8,15 +8,13 @@ Paso 2: Escribimos "y" para aceptar seguido de enter con la tecla enter del tecl
 
     y
 
-Paso 3: Salir y reiniciar
+Paso 3: Salimos:
 
     Exit
 
-Seguido del reinicio
+Paso 4: Reiniciaremos:
 
     reboot now
-
-
 
 Siguiente capítulo:
 
