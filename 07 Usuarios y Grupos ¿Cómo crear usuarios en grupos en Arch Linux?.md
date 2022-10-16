@@ -1,12 +1,16 @@
 # 07 Usuarios y Grupos ¿Cómo crear usuarios en grupos en Arch Linux?
 
-Paso 1: Creamos un usuario
+Paso 1: Creamos un usuario, con la flag "-m" se creará su carpeta con permisos en la carpeta home:
 
     useradd -m hagrid
 
-Paso 2: Ponemos una contraseña
+Paso 2: Ponemos una contraseña:
 
-    passwd P4S$W03DMEgaFuerte
+    passwd hagrid
+
+y la escribimos:
+
+    P4S$W03DMEgaFuerte
 
 Paso 3: Meterlo en el grupo wheel, para protegernos de no meternos en root directamente.
 
