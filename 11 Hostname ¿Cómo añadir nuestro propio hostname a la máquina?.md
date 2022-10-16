@@ -13,8 +13,8 @@ Paso 3: Pegamos lo siguiente, con el nombre que quereamos
 Ten en cuenta que la separación entre la ip, y el nombre, es una tabulación, con la tecla tab del teclado, no con la barra espaciadora.
 
     127.0.0.1   localhost
-    ::1 localhost
-    127.0.0.1   nuevonombre.localhost nuevonombre
+    ::1   localhost
+    127.0.0.1   nuevonombre.localhost   nuevonombre
 
 
 Siguiente capítulo:
