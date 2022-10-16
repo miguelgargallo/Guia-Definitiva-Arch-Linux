@@ -77,15 +77,15 @@ Ejecutamos para formatear:.
 
     mkfs.vfat -F 32 /dev/nvme0n1p6
 
-Paso 8: Formateamos la home partition:
+Paso 10: Formateamos la home partition:
 
     mkfs.ext4 /dev/nvme0n1p7
 
-Paso 9: formateamos la particion de swap:
+Paso 11: formateamos la particion de swap:
 
     mkswap /dev/nvme0n1p8
 
-Paso 10: Swapon de la partición, para habilitar la zona del swap:
+Paso 12: Swapon de la partición, para habilitar la zona del swap:
 
     swapon
 
