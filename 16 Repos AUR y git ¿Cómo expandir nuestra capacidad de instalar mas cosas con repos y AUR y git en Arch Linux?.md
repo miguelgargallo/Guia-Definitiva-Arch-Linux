@@ -28,9 +28,11 @@ Paso 7: Entramos dentro para ejecutarlo:
 
     cd paru-bin
 
-Paso 8: Ejecutamos paru-bin
+Paso 8: Ejecutamos ESTE PASO, que sirve para cualquier repo de aur o que contenga archivo PKGBUILD, es un comando que te ayudará en adelante
 
     makepkg -si
+
+### Pequeño paréntesis: primero: git clone y el link, a veces acabad en git! PASO 6! Y luego cd a la carpeta, seguido de makepkg -si
 
 Paso 9: Introducimos la contraseña y escribimos "y"
 
