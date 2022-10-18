@@ -1,4 +1,4 @@
-# 21 Alias, Comandos ¿Cómo ser un mago y ejecutar comandos en Arch Linux?
+# 95 Alias, Comandos ¿Cómo ser un mago y ejecutar comandos en Arch Linux?
 
 Paso 1: Simplemente escribimos esto en la terminal para cada comando:
 
