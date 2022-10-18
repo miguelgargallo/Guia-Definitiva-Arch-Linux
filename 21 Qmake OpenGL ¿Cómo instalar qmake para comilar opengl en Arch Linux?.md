@@ -1,30 +1,12 @@
-# 20 Instalar Snap Store ¿Cómo instalar Snap Store en arch linux?
+# 21 Qmake OpenGL ¿Cómo instalar qmake para comilar opengl en Arch Linux?
 
-Paso 1: Clonamos en descargas:
+Paso 1: Instalamos glm con pacman
 
-    git clone https://aur.archlinux.org/snapd.git
+    sudo pacman -S glm
 
-Paso 2: Entramos en la carpeta:
+Paso 2: Creamos el Alias, para ejecutar todo mas rápdio, cuidado has de poner el nombre generico que uses para todos los archivos:
 
-    cd snap
-
-Paso 3: Ejecutamos el instalador, "y" a todo y enter con la tecla enter del teclado:
-
-    makepkg -si
-
-Paso 4: Habilitamos el servicio:
-
-    sudo systemctl enable --now snapd.socket
-
-Paso 5: Crea la conexión a la carpeta:
-
-    sudo ln -s /var/lib/snapd/snap /snap
-
-Paso 6: Instalamos la Snap Store
-
-    sudo snap install snap-store
-
-Paso 7: Reiniciamos
+    alias dibu='qmake && make && ./Archivo''
 
 
 Siguiente capítulo:
