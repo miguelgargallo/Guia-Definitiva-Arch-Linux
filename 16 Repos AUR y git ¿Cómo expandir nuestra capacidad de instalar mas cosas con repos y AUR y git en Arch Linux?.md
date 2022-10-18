@@ -38,6 +38,14 @@ Paso 9: Introducimos la contraseña y escribimos "y"
 
     y
 
+Paso 10: Para instalar archivos que nos descarguemos .deb instalamos con yay:
+
+    yay -S debtap
+
+Paso 11: Con usuario sudo ejecutamos en la carpeta:
+
+    debtap -u /lugar/del/archivo.deb
+
 
 Siguiente capítulo:
 
