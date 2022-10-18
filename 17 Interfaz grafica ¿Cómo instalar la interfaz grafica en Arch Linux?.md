@@ -41,7 +41,7 @@ Paso 10: sino nos iba la terminal en el paso : Instalamos la terminal terminal k
 
 Paso 11: Instalamos si es portatil: (Opcional)
 
-    pacman -S xf86-input-synaptics
+    sudo pacman -S xf86-input-synaptics xf86-video-intel libva-intel-driver
 
 Paso 12: Instalamos software variado que es útil: (Opcional)
 
