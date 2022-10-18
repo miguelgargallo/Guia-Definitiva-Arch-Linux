@@ -43,7 +43,11 @@ Paso 11: Instalamos si es portatil:
 
     pacman -S xf86-input-synaptics
 
-Paso 12: Reiniciamos
+Paso 12: Instalamos software variado que es útil:
+
+    sudo pacman -S firefox vlc virtualbox xfce4-taskmanager xfce4-power-manager xfce4-settings scrot pcmanfm kitty nitrogen picom geany file-roller dmenu
+
+Paso 13: Reiniciamos
 
     reboot now
 
