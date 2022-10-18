@@ -39,6 +39,10 @@ Paso 10: sino nos iba la terminal en el paso : Instalamos la terminal terminal k
 
     pacman -S kitty
 
+Paso 11: Instalamos si es portatil:
+
+    pacman -S xf86-input-synaptics
+
 Paso 11: Reiniciamos
 
     reboot now
