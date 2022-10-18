@@ -43,7 +43,7 @@ Paso 11: Instalamos si es portatil:
 
     pacman -S xf86-input-synaptics
 
-Paso 11: Reiniciamos
+Paso 12: Reiniciamos
 
     reboot now
 
