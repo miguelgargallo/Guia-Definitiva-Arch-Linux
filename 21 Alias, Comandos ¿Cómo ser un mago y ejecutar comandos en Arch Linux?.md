@@ -23,7 +23,19 @@ Otras alternativas del comando ir atrás:
 
     alias ..='cd ..'
     alias atras='cd ..'
+
+
+Para ir a Home directamente
+
     alias home='cd'
+
+Para ejecutar QT (recuerda cambiar palabara "Ejecutable" por una que uses generica para todos los proyectos)
+
+    alias dibuja='qmake && make && ./Ejecutable'
+
+Y sus variantes (recuerda cambiar palabara "Ejecutable" por una que uses generica para todos los proyectos)
+
+    alias dibujas='qmake-qt5 && make %% ./Ejecutable'
 
 
 Comando personalizado para compilar cpp, ten encuentas que siempre habrás de crear un directorio porque siempre llamarás a los archivos "mqain" sino estás al tanto puedes terminar reemplazando archivos, no mhago responsable de esto.
