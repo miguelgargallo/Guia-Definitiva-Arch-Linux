@@ -39,13 +39,17 @@ Paso 10: sino nos iba la terminal en el paso : Instalamos la terminal terminal k
 
     pacman -S kitty
 
-Paso 11: Instalamos si es portatil:
+Paso 11: Instalamos si es portatil: (Opcional)
 
     pacman -S xf86-input-synaptics
 
-Paso 12: Instalamos software variado que es útil:
+Paso 12: Instalamos software variado que es útil: (Opcional)
 
     sudo pacman -S firefox vlc virtualbox xfce4-taskmanager xfce4-power-manager xfce4-settings scrot pcmanfm kitty nitrogen picom geany file-roller dmenu
+
+Paso 13: Otro software útil: (Opcional)
+
+    sudo pacman -S multilib-devel fakeroot git jshon wget make pkg-config autoconf automake patch
 
 Paso 13: Reiniciamos
 
