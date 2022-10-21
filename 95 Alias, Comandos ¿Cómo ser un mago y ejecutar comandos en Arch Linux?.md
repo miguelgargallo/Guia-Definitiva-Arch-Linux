@@ -2,9 +2,14 @@
 
 Paso 1: Simplemente escribimos guardamos estos comandos en: 
 
-cd ~/.bashrc
+    nano ~/.bashrc
 
-Este archivo es el documento se encuentra en el directorio 96 dotfiles como ./96 dotfiles/9601 bashrc alias.md
+U otros editores:
+
+    vim ~/.bashrc
+    nvim ~/.bashrc
+
+Y pegas lo que hay al final de la lección, o solo una porción, a continuación se detallan los alias añadidos.
 
 Hechizo "Lumos" para ver archivos ocultos en la oscuridad de nuestras carpetas!
 
@@ -97,6 +102,43 @@ Y sus variantes:
 
     alias editas='vim main.cpp'
 
+
+Documento:
+
+    # Miguel Gargallo
+
+    # Hechizo "Lumos" para ver archivos ocultos en la oscuridad de nuestras carpetas!
+    alias lumos='ls -la'
+    alias ll='ls -la'
+    alias ocultos='ls -la'
+    alias oculto='ls -la'
+    alias mostraroculto='ls -la'
+    alias mostrarocultos='ls -la'
+
+    # Atrás
+    alias ..='cd .. && ls'
+    alias ..='cd .. && ls'
+    alias atras='cd .. && ls'
+
+    # Para ir a Home directamente
+    alias home='cd && ls'
+
+    # Para ejecutar QT (recuerda cambiar palabara "Ejecutable" por una que uses generica para todos los proyectos)
+    alias dibuja='qmake && make && ./Ejecutable'
+    alias dibujas='qmake-qt5 && make %% ./Ejecutable'
+
+    # Comando personalizado para compilar cpp, ten encuentas que siempre habrás de crear un directorio poalias nuevo='cp ~/Plantilla/cpp/main.cpp main.cpp'rque siempre llamarás a los archivos "mqain" sino estás al tanto puedes terminar reemp>
+    # Y Asignamos este alias:
+    alias nuevo='cp ~/Plantilla/cpp/main.cpp main.cpp'
+    alias compila='g++ -c main.cpp && g++ -o main main.o && ./main'
+
+    # Y variantes
+    alias compilas='g++ -c main.cpp && g++ -o main main.o && ./main'
+    alias dale='g++ -c main.cpp && g++ -o main main.o && ./main'
+
+    # Para editar el main.cpp creamos estos alias para los nuevos comandos:
+    alias edita='vim main.cpp'
+    alias editas='vim main.cpp'
 
 
 
