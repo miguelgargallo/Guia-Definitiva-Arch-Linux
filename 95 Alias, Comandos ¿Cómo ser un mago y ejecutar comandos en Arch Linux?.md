@@ -103,7 +103,8 @@ Y sus variantes:
     alias editas='vim main.cpp'
 
 
-Documento:
+
+Documento entero para copiar, pegar:
 
     # Miguel Gargallo
 
