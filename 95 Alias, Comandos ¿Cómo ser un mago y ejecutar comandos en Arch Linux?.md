@@ -1,13 +1,16 @@
 # 95 Alias, Comandos ¿Cómo ser un mago y ejecutar comandos en Arch Linux?
 
-Paso 1: Simplemente escribimos esto en la terminal para cada comando:
+Paso 1: Simplemente escribimos guardamos estos comandos en: 
+
+cd ~/.bashrc
+
+Este archivo es el documento se encuentra en el directorio 96 dotfiles como ./96 dotfiles/9601 bashrc alias.md
 
 Hechizo "Lumos" para ver archivos ocultos en la oscuridad de nuestras carpetas!
 
     alias lumos='ls -la'
 
 Otras variantes:
-
     alias ll='ls -la'
     alias ocultos='ls -la'
     alias oculto='ls -la'
@@ -17,7 +20,7 @@ Otras variantes:
 
 Ir atrás:
 
-    alias ..="
+    alias ..='cd .. && ls'
 
 Otras alternativas del comando ir atrás:
 
