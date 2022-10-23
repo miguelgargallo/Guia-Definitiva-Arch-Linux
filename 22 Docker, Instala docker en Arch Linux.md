@@ -24,6 +24,18 @@ Paso 6: Añadimos Docker al grupo:
 
     sudo usermod -aG docker $USER
 
+Paso 7: Docker compose
+
+    sudo su
+
+Paso 8: Instalamos docker compose
+
+    pacman -S docker-compose
+
+Paso 9: Comprobamos Docker Compose
+
+    docker-compose version
+
 
 FELICIDADES HAS LLEGADO AL FINAL DE LA GUIA!
 
