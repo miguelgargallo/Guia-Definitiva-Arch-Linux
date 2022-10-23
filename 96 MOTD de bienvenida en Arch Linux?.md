@@ -30,6 +30,6 @@ Paso 2: Escribimos lo que queremos:
 
 Paso 3: Editamos el archivo de MOTD de nuestro Arch Linux
 
-  sudo nano /etc/motd
+    sudo nano /etc/motd
 
 Y lo reemplazamos.
