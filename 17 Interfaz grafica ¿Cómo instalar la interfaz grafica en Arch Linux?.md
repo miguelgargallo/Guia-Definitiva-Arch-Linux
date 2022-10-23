@@ -73,6 +73,15 @@ Instalamos con el comando makepkg
 
     makepkg -fsri
 
+Si hay algun error: como por ejemplo:
+
+/usr/bin/update-mime-database: /usr/lib/libc.so.6: version `GLIBC_2.36' not found (required by /usr/lib/libstdc++.so.6)
+error: command failed to execute correctly
+
+Ejecutaremos:
+
+    pacman -S glibc lib32-glibc
+
 
 Siguiente capítulo:
 
