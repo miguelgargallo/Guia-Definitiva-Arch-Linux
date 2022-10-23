@@ -12,6 +12,8 @@ Y ejecutamos:
 
     makepkg -si
 
+De lo contrario, para instalar simplemente Snap Store
+
 Paso 1: Clonamos en descargas:
 
     git clone https://aur.archlinux.org/snapd.git
