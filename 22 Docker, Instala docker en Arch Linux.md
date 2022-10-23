@@ -40,7 +40,7 @@ Paso 10: Extra, instalar certbot o letsencrypt:
 
     sudo pacman -S certbot
 
-.
+
 FELICIDADES HAS LLEGADO AL FINAL DE LA GUIA!
 
 Siguiente capítulo: Muchas gracias, se irá actualizando con el tiempo.
