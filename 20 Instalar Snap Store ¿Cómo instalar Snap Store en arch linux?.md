@@ -1,5 +1,17 @@
 # 20 Instalar Snap Store ¿Cómo instalar Snap Store en arch linux?
 
+Si lo que buscas en VSCode, haz esto, en vez de instalar Snap Store:
+
+    git clone https://aur.archlinux.org/visual-studio-code-bin.git
+
+Seguido de:
+
+    cd visual-studio-code-bin
+
+Y ejecutamos:
+
+    makepkg -si
+
 Paso 1: Clonamos en descargas:
 
     git clone https://aur.archlinux.org/snapd.git
