@@ -24,10 +24,12 @@ Paso 7: Salimos con control alt f2:
 
     control + alt + F2
 
-Paso 8: Entramos con nuestras credenciales y nos vamos a root:
+Tengamos en cuenta que lo que haremos es:
 
  - Primero nombre de usuario.
  - Luego contraseña y finaltmente después:
+
+Paso 8: Entramos con nuestras credenciales y nos vamos a root:
 
     sudo su
 
