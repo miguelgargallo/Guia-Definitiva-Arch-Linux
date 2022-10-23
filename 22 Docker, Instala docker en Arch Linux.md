@@ -36,11 +36,11 @@ Paso 9: Comprobamos Docker Compose
 
     docker-compose version
 
-PAso 10: Extra, instalar certbot o letsencrypt:
+Paso 10: Extra, instalar certbot o letsencrypt:
 
     sudo pacman -S certbot
 
-
+.
 FELICIDADES HAS LLEGADO AL FINAL DE LA GUIA!
 
 Siguiente capítulo: Muchas gracias, se irá actualizando con el tiempo.
