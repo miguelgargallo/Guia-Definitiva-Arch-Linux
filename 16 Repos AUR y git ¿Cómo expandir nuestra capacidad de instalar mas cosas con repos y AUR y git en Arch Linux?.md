@@ -46,6 +46,30 @@ Paso 11: Con usuario sudo ejecutamos en la carpeta:
 
     debtap -u /lugar/del/archivo.deb
 
+Paso 12: Instalar Node, ejecutamos, borramos nodejs por si se ha instalado antes erroneamente:
+
+    sudo pacman -Rsc -n nodejs
+
+Paso 13: seguido de:
+
+    sudo pacman -Sy nodejs
+
+Paso 14: Para finalizar:
+
+    sudo pacman -Sy npm
+
+Paso 15: Ejecutamos por si acaso:
+
+    pacman -Syu
+
+Paso 16: Comprobamos que se ha instalado:
+
+    node -v
+
+Paso 17: Comprobamos npm
+
+    npm -v
+
 
 Siguiente capítulo:
 
