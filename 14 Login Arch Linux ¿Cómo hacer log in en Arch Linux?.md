@@ -8,6 +8,10 @@ Paso 2: Introducimos la contraseña
 
     W03DMEgaFuerte
 
+Paso 3: Si estás en un hosting, y quieres deshabilitar el login por root:
+
+    sudo passwd -l root
+
 
 
 Siguiente capítulo:
