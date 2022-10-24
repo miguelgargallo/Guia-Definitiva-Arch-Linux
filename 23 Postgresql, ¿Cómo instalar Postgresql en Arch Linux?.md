@@ -1,6 +1,32 @@
 # 23 Postgresql, ¿Cómo instalar Postgresql en Arch Linux?
 
+Paso 1: Instalamos postgresql con pacman
 
+    sudo pacman -S postgresql
+
+Paso 2: Entramos con el usuario postgres
+
+sudo -u postgres -i
+
+Paso 3: Iniciamos la base de datos:
+
+initdb --locale $LANG -E UTF8 -D '/var/lib/postgres/data'
+
+Paso 4: Salimos del usuario
+
+exit
+
+Paso 5: Habilitamos el servicio postgresql
+
+sudo systemctl enable postgresql.service
+
+Paso 6: Encendemos el servicio postgresql
+
+sudo systemctl start postgresql.service
+
+Paso 7: Entramos con el usuario postgres
+
+sudo -u postgres -i
 
 
 FELICIDADES HAS LLEGADO AL FINAL DE LA GUIA!
@@ -11,7 +37,7 @@ Siguiente capítulo: Muchas gracias, se irá actualizando con el tiempo.
 
 Volver al capítulo anterior:
 
-[21 Qmake OpenGL ¿Cómo instalar qmake para comilar opengl en Arch Linux?](https://github.com/miguelgargallo/Guia-Definitiva-Arch-Linux/blob/main/21%20Qmake%20OpenGL%20%C2%BFC%C3%B3mo%20instalar%20qmake%20para%20comilar%20opengl%20en%20Arch%20Linux%3F.md) ✅
+[22 Docker, Instala docker en arch linux](https://github.com/miguelgargallo/Guia-Definitiva-Arch-Linux/blob/main/22%20Docker%2C%20Instala%20docker%20en%20arch%20linux.md) ✅
 
 Extras:
 
@@ -72,7 +98,9 @@ Volver al Índice:
 
 [21 Qmake OpenGL ¿Cómo instalar qmake para comilar opengl en Arch Linux?](https://github.com/miguelgargallo/Guia-Definitiva-Arch-Linux/blob/main/21%20Qmake%20OpenGL%20%C2%BFC%C3%B3mo%20instalar%20qmake%20para%20comilar%20opengl%20en%20Arch%20Linux%3F.md) ✅
 
-[22 Docker, Instala docker en arch linux](https://github.com/miguelgargallo/Guia-Definitiva-Arch-Linux/blob/main/22%20Docker%2C%20Instala%20docker%20en%20arch%20linux.md) 💙
+[22 Docker, Instala docker en arch linux](https://github.com/miguelgargallo/Guia-Definitiva-Arch-Linux/blob/main/22%20Docker%2C%20Instala%20docker%20en%20arch%20linux.md) ✅
+
+[23 Postgresql, ¿Cómo instalar Postgresql en Arch Linux](https://github.com/miguelgargallo/Guia-Definitiva-Arch-Linux/blob/main/23%20Postgresql%2C%20%C2%BFC%C3%B3mo%20instalar%20Postgresql%20en%20Arch%20Linux%3F.md) 💙
 
 [95 Alias, Comandos ¿Cómo ser un mago y ejecutar comandos en Arch Linux?](https://github.com/miguelgargallo/Guia-Definitiva-Arch-Linux/blob/main/95%20Alias%2C%20Comandos%20%C2%BFC%C3%B3mo%20ser%20un%20mago%20y%20ejecutar%20comandos%20en%20Arch%20Linux%3F.md) 🔵
 
