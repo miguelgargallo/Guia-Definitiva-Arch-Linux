@@ -6,27 +6,27 @@ Paso 1: Instalamos postgresql con pacman
 
 Paso 2: Entramos con el usuario postgres
 
-sudo -u postgres -i
+    sudo -u postgres -i
 
 Paso 3: Iniciamos la base de datos:
 
-initdb --locale $LANG -E UTF8 -D '/var/lib/postgres/data'
+    initdb --locale $LANG -E UTF8 -D '/var/lib/postgres/data'
 
 Paso 4: Salimos del usuario
 
-exit
+    exit
 
 Paso 5: Habilitamos el servicio postgresql
 
-sudo systemctl enable postgresql.service
+    sudo systemctl enable postgresql.service
 
 Paso 6: Encendemos el servicio postgresql
 
-sudo systemctl start postgresql.service
+    sudo systemctl start postgresql.service
 
 Paso 7: Entramos con el usuario postgres
 
-sudo -u postgres -i
+    sudo -u postgres -i
 
 
 FELICIDADES HAS LLEGADO AL FINAL DE LA GUIA!
