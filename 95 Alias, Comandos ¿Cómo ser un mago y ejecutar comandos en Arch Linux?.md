@@ -141,6 +141,10 @@ Documento entero para copiar, pegar:
     alias edita='vim main.cpp'
     alias editas='vim main.cpp'
 
+    # Limpiar y listar elementos de una lista
+    alias ...='clear && ls'
+
+
 
 Siguiente capítulo:
 
