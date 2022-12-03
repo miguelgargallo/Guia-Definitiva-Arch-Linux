@@ -1,36 +1,19 @@
-# 23 Postgresql, ¿Cómo instalar Postgresql en Arch Linux?
+# 24 Anaconda3, ¿Cómo instalar Anaconda 3en Arch Linux?
 
-Paso 1: Instalamos postgresql con pacman:
+Paso 1: Ejecutamos el comando wget, habiendo previamente ido a la web oficial
 
-    sudo pacman -S postgresql
+- [anaconda/distribution - footer](https://www.anaconda.com/products/distribution#Downloads)
+- vamos al footer y copiamos el link, con "copy link" y lo pegamos al lado, a fecha de Diciembre 2022, este es el link:
 
-Paso 2: Entramos con el usuario postgres:
+    wget https://repo.anaconda.com/archive/Anaconda3-2022.10-Linux-x86_64.sh
 
-    sudo -u postgres -i
+Paso 2: Damos permisos:
 
-Paso 3: Iniciamos la base de datos:
+    chmod +x Anaconda3-2022.10-Linux-x86_64.sh
 
-    initdb --locale $LANG -E UTF8 -D '/var/lib/postgres/data'
+Paso 3: Ejecutamos el instalador, y le damos a enter y yes, cuando este nos lo pida, si no sabes salir de la licencia al principio, dale a la tecla "q":
 
-Paso 4: Salimos del usuario:
-
-    exit
- 
-Paso 5: Habilitamos el servicio postgresql:
-
-    sudo systemctl enable postgresql.service
-
-Paso 6: Encendemos el servicio postgresql:
-
-    sudo systemctl start postgresql.service
-
-Paso 7: Entramos con el usuario postgres:
-
-    sudo -u postgres -i
-
-Paso 8: Para entrar usaremos el comando psql:
-
-    psql
+    ./Anaconda3-2022.10-Linux-x86_64.sh
 
 
 FELICIDADES HAS LLEGADO AL FINAL DE LA GUIA!
@@ -105,6 +88,8 @@ Volver al Índice:
 [22 Docker, Instala docker en arch linux](https://github.com/miguelgargallo/Guia-Definitiva-Arch-Linux/blob/main/22%20Docker%2C%20Instala%20docker%20en%20arch%20linux.md) ✅
 
 [23 Postgresql, ¿Cómo instalar Postgresql en Arch Linux](https://github.com/miguelgargallo/Guia-Definitiva-Arch-Linux/blob/main/23%20Postgresql%2C%20%C2%BFC%C3%B3mo%20instalar%20Postgresql%20en%20Arch%20Linux%3F.md) 💙
+
+[24 Instalar Anaconda 3](https://github.com/miguelgargallo/Guia-Definitiva-Arch-Linux/blob/main/24%20Anaconda3%2C%20%C2%BFC%C3%B3mo%20instalar%20Anaconda%203%20en%20Arch%20Linux%3F.md) ✅
 
 [95 Alias, Comandos ¿Cómo ser un mago y ejecutar comandos en Arch Linux?](https://github.com/miguelgargallo/Guia-Definitiva-Arch-Linux/blob/main/95%20Alias%2C%20Comandos%20%C2%BFC%C3%B3mo%20ser%20un%20mago%20y%20ejecutar%20comandos%20en%20Arch%20Linux%3F.md) 🔵
 
