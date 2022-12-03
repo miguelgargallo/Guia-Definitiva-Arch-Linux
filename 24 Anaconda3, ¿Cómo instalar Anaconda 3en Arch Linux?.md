@@ -15,7 +15,7 @@ Paso 3: Iniciamos la base de datos:
 Paso 4: Salimos del usuario:
 
     exit
-
+ 
 Paso 5: Habilitamos el servicio postgresql:
 
     sudo systemctl enable postgresql.service
