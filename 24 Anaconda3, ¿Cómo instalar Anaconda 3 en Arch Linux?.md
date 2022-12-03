@@ -1,4 +1,4 @@
-# 24 Anaconda3, ¿Cómo instalar Anaconda 3en Arch Linux?
+# 24 Anaconda 3, ¿Cómo instalar Anaconda 3en Arch Linux?
 
 Paso 1: Ejecutamos el comando wget, habiendo previamente ido a la web oficial
 
