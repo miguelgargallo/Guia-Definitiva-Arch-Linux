@@ -22,6 +22,27 @@ Otras variantes:
     alias mostraroculto='ls -la'
     alias mostrarocultos='ls -la'
 
+Quitar el nombre de nuestro usuario y nombre de ordenador de la terminal
+
+    sudo nano ~/.bashrc
+
+Seguid de añadir esto en el archivo
+
+    export PS1=' Lo que quieras > '
+
+Comentamos esta linea
+
+    # PS1='[\u@\h \W]\$ '
+
+Y añadimos esta otra al final del archivo:
+
+    # anonimo
+    alias anon=" export PS1=' Lo que quieras > ' "
+
+De esta forma podemos salir guardando los cambios, y ejecutar en la consola:
+
+    alias anon=" export PS1=' Lo que quieras > ' "
+    
 
 Ir atrás:
 
