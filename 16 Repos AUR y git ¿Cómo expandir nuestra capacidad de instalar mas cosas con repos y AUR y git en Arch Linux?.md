@@ -76,7 +76,7 @@ Paso 17: Comprobamos npm
 
 Paso 18: Instalar pnpm
 
-    wget -qO- https://get.pnpm.io/install.sh | sh -
+    wget https://get.pnpm.io/install.sh | sh
 
 Paso 19: Seguido del comando source
 
