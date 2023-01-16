@@ -1,6 +1,6 @@
 # 16 Interfaz grafica ¿Cómo instalar la interfaz grafica en Arch Linux?
 
-Importante, sinal acabar la guía no te sale la interfáz, nonte preocupes, ejecuta:
+Importante, si al acabar la guía no te sale la interfáz, no te preocupes, ejecuta:
 
     systemctl enable gdm
 
