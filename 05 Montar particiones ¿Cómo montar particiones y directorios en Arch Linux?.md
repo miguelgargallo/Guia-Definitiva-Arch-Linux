@@ -12,6 +12,10 @@ Paso 3: ejecutamos el comando mount, para enviar la partición boot al directori
 
     mount /dev/nvme0n1p6 /mnt/boot
 
+Paso pre 4: solo si te falla el paso 4: te aviso antes por fallos de verificar: No pasa nada, ejecutamos esto antes.
+
+    pacman -Sy --needed archlinux-keyring
+
 Paso 4: comando pacstrap, para instalar algunos paquetes:
 
     pacstrap /mnt linux linux-firmware networkmanager grub wpa_supplicant base base-devel
