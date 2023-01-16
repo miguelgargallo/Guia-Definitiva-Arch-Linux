@@ -36,6 +36,7 @@ Paso 5: Crea la conexión a la carpeta:
 
 Paso 6: Instalamos la Snap Store
 
+si nos sale un error de "too early, espera un minuto y vuelve, si le das a la flecha del teclado hacia arriba, te saldra el comando anterior, o anteriores si lo haces repetidas veces, esto te ahorrará mucho tiempo.
     sudo snap install snap-store
 
 Paso 7: Reiniciamos
