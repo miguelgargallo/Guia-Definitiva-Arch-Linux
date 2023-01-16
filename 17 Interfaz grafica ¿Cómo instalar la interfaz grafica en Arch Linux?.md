@@ -2,6 +2,10 @@
 
 Importante, si al acabar la guía no te sale la interfáz, no te preocupes, ejecuta:
 
+    sudo pacman -S gdm
+
+seguid de
+
     systemctl enable gdm
 
 y reinicia
