@@ -42,7 +42,7 @@ Paso 10: OPCIONAL ahora no: Para instalar archivos que nos descarguemos .deb ins
 
     yay -S debtap
 
-Paso 11: Con usuario sudo ejecutamos en la carpeta:
+Paso 11 OPCIONAL ahora no: Con usuario sudo ejecutamos en la carpeta:
 
     debtap -u /lugar/del/archivo.deb
 
@@ -54,7 +54,7 @@ Paso 13: seguido de:
 
     sudo pacman -Sy nodejs
 
-Paso 14: Para finalizar:
+Paso 1r: Para finalizar:
 
     sudo pacman -Sy npm
 
