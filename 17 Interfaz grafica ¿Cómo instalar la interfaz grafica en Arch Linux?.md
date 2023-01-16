@@ -1,5 +1,13 @@
 # 16 Interfaz grafica ¿Cómo instalar la interfaz grafica en Arch Linux?
 
+Importante, sinal acabar la guía no te sale la interfáz, nonte preocupes, ejecuta:
+
+    systemctl enable gdm
+
+y reinicia
+
+    reboot now
+
 Paso 1: Instalamos xorg para la interfáz gráfica, cuidado, si solo deseamos instalar AwesomeWM ve directamente al paso 14!
 
     pacman -S xorg xorg-server
