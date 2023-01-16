@@ -14,7 +14,7 @@ Paso 3: Instalamos gnome:
 
     pacman -S gnome
 
-Paso 4: Damos a enter a todo:
+Paso 4: Damos a enter a todo y luego "y"
 
 Paso 5: Ejecutamos para inicializar el servicio de escritorio y nos esperamos, esto cargará la pantalla de login y la interfaz!
 
