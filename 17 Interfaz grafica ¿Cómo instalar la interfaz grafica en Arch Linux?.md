@@ -55,7 +55,7 @@ le damos enter y luego "y"
 
 Paso 13: Otro software útil: (Opcional)
 
-    sudo pacman -S multilib-devel fakeroot git jshon wget make pkg-config autoconf automake patch
+    sudo pacman -S multilib-devel fakeroot jshon make pkg-config autoconf automake patch
 
 Paso 13: Reiniciamos
 
