@@ -38,6 +38,16 @@ Paso 3: Le damos a new, y creamos 3 particiones, una detrás de otra de forma or
 
     cfdisk /dev/nvme0n1
 
+Paso 3.1 Solo si no tenemos EFI, porque deseseamos partir de 0
+
+    100M
+
+Paso 3.2 Formateamos:
+
+    mkfs.fat -F32 /dev/sda1
+
+Paso 3.3 Ponemos Type: EFI y le damos a write y seguimos creando particiones.
+
 Paso 4: Nos dirigimosnos dirigimos a la opción de color verde que corresponde a: "Free Space", y le damoms a New. En su defecto, Enter  con la tecla enter del teclado, porque así viene predefinido en el menú de abajo, o sino, nos movemos con las felchas del teclado.
 
     512M
