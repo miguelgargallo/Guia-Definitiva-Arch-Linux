@@ -78,6 +78,14 @@ Paso 18: Instalar pnpm
 
     wget https://get.pnpm.io/install.sh | sh
 
+seguido de:
+
+    chmod +x ./install.sh
+
+y de:
+
+    ./install.sh
+
 Paso 19: Seguido del comando source
 
     source /home/TuNombreDeUsuario/.bashrc
