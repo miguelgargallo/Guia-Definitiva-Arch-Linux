@@ -4,6 +4,8 @@ Paso 1: Instalamos xorg para la interfáz gráfica, cuidado, si solo deseamos in
 
     pacman -S xorg xorg-server
 
+le damos enter hasta que nos pregunte Y/n
+
 Paso 2: Damos al enter con la tecla enter del teclado, y escrbimos "y" para aceptar:
 
     y
@@ -11,6 +13,8 @@ Paso 2: Damos al enter con la tecla enter del teclado, y escrbimos "y" para acep
 Paso 3: Instalamos gnome:
 
     pacman -S gnome
+
+le damos enter hasta que nos pregunte Y/n
 
 Paso 4: Damos a enter a todo:
 
