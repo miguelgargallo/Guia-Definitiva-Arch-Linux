@@ -1,38 +1,34 @@
 # 09 Instalar Bootloader ¿Cómo instalar el bootloader en Arch Linux?
 
-Paso 1: Recuerda que tu disco de particiones se puede llamar diferente, puedes comprobarlo con:
-
-    lsblk
-
-Paso 2: Creamos la carpeta en efi dentro de boot:
+Paso 1: Creamos la carpeta en efi dentro de boot:
 
     mkdir /boot/efi
 
-Paso 3: Mostramos con lsblk los discos:
+Paso 2: Mostramos con lsblk los discos:
 
     lsblk
 
-Paso 4: Montamos en la primera partición, en mi caso nvme0n1p1 el directorio, /boot/efi
+Paso 3: Montamos en la primera partición, en mi caso nvme0n1p1 el directorio, /boot/efi
 
     mount /dev/nvme0n1p1 /boot/efi
 
-Paso 5: Instalamos con pacman, el efibootmanager:
+Paso 4: Instalamos con pacman, el efibootmanager:
 
     pacman -S grub efibootmgr dosfstools mtools
 
-Paso 6: Editamos /etc/default/grub:
+Paso 5: Editamos /etc/default/grub:
 
     nano /etc/default/grub
 
-Paso 7: Vamos a descomentar la última linea, que dice así:
+Paso 6: Vamos a descomentar la última linea, que dice así:
 
     GRUB_DISABLE_OS_PROBER=false
 
-Paso 8: Instalamos os-prober:
+Paso 7: Instalamos os-prober:
 
     pacman -S os-prober
 
-Paso 9: Instalamos designando nuestra arquitectura:
+Paso 8: Instalamos designando nuestra arquitectura:
 
     grub-install --target=x86_64-efi --bootloader-id=grub_uefi --recheck
 
