@@ -22,9 +22,9 @@ Paso 5: Ejecutamos para inicializar el servicio de escritorio y nos esperamos, e
 
 Paso 6: En el escritorio, con la tecla windows presionamos 1 vez, soltamos, escribimos "terminal" y sino se enciende la app, instalaremos mas adelante la terminal de kitty.
 
-Paso 7: Salimos con control alt f2:
+Paso 7: Salimos con control alt f2 o f3
 
-    control + alt + F2
+    control + alt + F2 o F3
 
 Tengamos en cuenta que lo que haremos es:
 
