@@ -4,6 +4,10 @@ Paso 1: Instalamos con pacman git, le damos a enter, con la tecla enter del tecl
 
     pacman -S git
 
+seguido de
+
+    pacman -S wget
+
 Paso 2: Le decimso que si, escribiendo "y"
 
     y
