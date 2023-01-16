@@ -1,4 +1,4 @@
-# 11 Hostname ¿Cómo añadir nuestro propio hostname a la máquina?
+# 11 Hostname ¿Cómo añadir nuestro propio hostname a la máquina? Vigilad, debeis estar en el usuario "root@archiso" sino es asi, dale a exit.
 
 Paso 1: Ejecutamos la inserción con echo
 
