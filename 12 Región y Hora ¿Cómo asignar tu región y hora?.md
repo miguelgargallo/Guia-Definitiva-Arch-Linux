@@ -1,6 +1,6 @@
 # 12 Región y Hora ¿Cómo asignar tu región y hora?
 
-Paso 1: Listamos las regiones
+Paso 1: Listamos las regiones, vigilad, debeis estar en "root@archiso" dadle a exit sino es así, sino dara un error.
 
     timedatectl list-timezones
 
