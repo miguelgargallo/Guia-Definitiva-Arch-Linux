@@ -20,10 +20,6 @@ Paso 5: Entramos en la carpeta repos:
 
     cd !$
 
-o
-
-    cd Desktop
-
 Paso 6: instalamos aur:
 
     git clone https://aur.archlinux.org/paru-bin.git
