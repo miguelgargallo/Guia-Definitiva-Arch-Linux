@@ -4,6 +4,8 @@ Truco 1: Con control L, limpias toda la pantalla.
 
 Truco 2: Con !$ puedes concatenar = juntar el comando anterior al de ahora, es decir, si hago cd Hola, para ir a la carpeta Hola, y despues ejecuto cat !$, leere lo que hay en la carpeta Hola.
 
+Truco 3:  si le das a la flecha del teclado hacia arriba, te saldra el comando anterior, o anteriores si lo haces repetidas veces, esto te ahorrará mucho tiempo.
+
 Paso 1: Ponemos el teclado en español:
 
     loadkeys es
