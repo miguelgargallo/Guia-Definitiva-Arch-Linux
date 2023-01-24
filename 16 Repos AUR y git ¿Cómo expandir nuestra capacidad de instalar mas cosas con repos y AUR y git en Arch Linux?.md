@@ -89,6 +89,10 @@ y de:
 Paso 19: Seguido del comando source
 
     source /home/TuNombreDeUsuario/.bashrc
+    
+Paso 20: Instalar Yarn para repos de React
+
+    pacman -S yarn
 
 
 Siguiente capítulo:
