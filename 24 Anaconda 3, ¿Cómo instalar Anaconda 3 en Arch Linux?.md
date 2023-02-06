@@ -5,7 +5,10 @@ Paso 1: Ejecutamos el comando wget, habiendo previamente ido a la web oficial
 - [anaconda/distribution - footer](https://www.anaconda.com/products/distribution#Downloads)
 - vamos al footer y copiamos el link, con "copy link" y lo pegamos al lado, a fecha de Diciembre 2022, este es el link:
 
-    wget [https://repo.anaconda.com/archive/Anaconda3-2022.10-Linux-x86_64.sh](https://repo.anaconda.com/archive/Anaconda3-2022.10-Linux-x86_64.sh)
+```
+wget https://repo.anaconda.com/archive/Anaconda3-2022.10-Linux-x86_64.sh
+```
+
 
 Paso 2: Damos permisos:
 
