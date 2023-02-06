@@ -35,6 +35,16 @@ Paso 7: Entramos dentro para ejecutarlo:
 Paso 8: Ejecutamos ESTE PASO, que sirve para cualquier repo de aur o que contenga archivo PKGBUILD, es un comando que te ayudará en adelante
 
     makepkg -si
+    
+Si te diera error:
+
+     ==> ERROR: Cannot find the fakeroot binary.
+     
+Debes de usar el siguiente comando:
+
+     sudo pacman -S --needed base-devel
+   
+Y esto instalará los paquetes necesarios, y luego ejecutas el paso 8.
 
 Paso 9: Introducimos la contraseña y escribimos "y"
 
