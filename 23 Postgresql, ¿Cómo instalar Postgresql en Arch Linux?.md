@@ -41,7 +41,7 @@ Siguiente capítulo: Muchas gracias, se irá actualizando con el tiempo.
 
 Volver al capítulo anterior:
 
-[22 Docker, Instala docker en arch linux](https://github.com/miguelgargallo/Guia-Definitiva-Arch-Linux/blob/main/22%20Docker%2C%20Instala%20docker%20en%20arch%20linux.md) ✅
+[22 Docker, Instala docker en arch linux](https://github.com/miguelgargallo/Guia-Definitiva-Arch-Linux/blob/main/22%20Docker%2C%20Instala%20docker%20en%20Arch%20Linux.md) ✅
 
 Extras:
 
