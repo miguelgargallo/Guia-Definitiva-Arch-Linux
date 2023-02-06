@@ -16,11 +16,13 @@ Paso 3: Ajusta el recorrido, path: donde pone hagrid, pon tu nombre de usuario:
 
 Paso 4: Introducimos esta linea al final de todo, es el path the rust para el usuario en el que estamos, donde pone hagrid, pones tu nombre de usuario.
 
-    export PATH=/home/hagrid/.cargo/bin:$PATH
+    export PATH="/home/TuNombreDeUsuario/.cargo/bin:$PATH"
 
 Paso 5: Ejecuta bottom
 
     btm
+    
+
 
 
 Siguiente capítulo:
