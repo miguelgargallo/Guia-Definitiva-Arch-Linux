@@ -11,7 +11,7 @@ Paso 2: Creamos el Alias, para ejecutar todo mas rápdio, cuidado has de poner e
 
 Siguiente capítulo:
 
-[22 Docker, Instala docker en arch linux](https://github.com/miguelgargallo/Guia-Definitiva-Arch-Linux/blob/main/22%20Docker%2C%20Instala%20docker%20en%20arch%20linux.md) 🔵
+[22 Docker, Instala docker en arch linux](https://github.com/miguelgargallo/Guia-Definitiva-Arch-Linux/blob/main/22%20Docker%2C%20Instala%20docker%20en%20Arch%20Linux.md) 🔵
 
 Volver al capítulo anterior:
 
