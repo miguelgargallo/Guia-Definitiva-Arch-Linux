@@ -37,7 +37,7 @@ FELICIDADES HAS LLEGADO AL FINAL DE LA GUIA!
 
 Siguiente capítulo: Muchas gracias, se irá actualizando con el tiempo.
 
-[24 Instalar Anaconda 3](https://github.com/miguelgargallo/Guia-Definitiva-Arch-Linux/blob/main/24%20Anaconda3%2C%20%C2%BFC%C3%B3mo%20instalar%20Anaconda%203%20en%20Arch%20Linux%3F.md) ✅
+[24 Instalar Anaconda 3](https://github.com/miguelgargallo/Guia-Definitiva-Arch-Linux/blob/main/24%20Anaconda%203%2C%20%C2%BFC%C3%B3mo%20instalar%20Anaconda%203%20en%20Arch%20Linux%3F.md) ✅
 
 Volver al capítulo anterior:
 
