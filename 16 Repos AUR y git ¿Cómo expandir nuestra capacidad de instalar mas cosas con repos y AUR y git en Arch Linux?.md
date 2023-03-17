@@ -60,13 +60,13 @@ Paso 11 OPCIONAL ahora no: Con usuario sudo ejecutamos en la carpeta:
 
     debtap -u /lugar/del/archivo.deb
 
-Paso 12: Borramos si teniamos Node
-
-    sudo pacman -Rsc -n nodejs
-
 Paso 13: Instalamos node
 
     sudo pacman -Sy nodejs
+
+Paso 13.1: Para el futuro, no hacer: Borramos si teniamos Node
+
+    sudo pacman -Rsc -n nodejs
 
 Paso 1r: Para finalizar:
 
