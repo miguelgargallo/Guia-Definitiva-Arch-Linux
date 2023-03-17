@@ -49,7 +49,7 @@ Paso 11: Instalamos si es portatil: (Opcional)
 
 Paso 12: Instalamos software variado que es útil: (Opcional)
 
-    sudo pacman -S firefox vlc virtualbox xfce4-taskmanager xfce4-power-manager xfce4-settings scrot pcmanfm kitty nitrogen picom geany file-roller dmenu
+    sudo pacman -S firefox vlc virtualbox xfce4-taskmanager xfce4-power-manager xfce4-settings scrot pcmanfm nitrogen picom geany file-roller dmenu
 
 le damos enter y luego "y"
 
