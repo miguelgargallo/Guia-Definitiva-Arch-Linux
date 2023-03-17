@@ -62,6 +62,16 @@ Paso 11 OPCIONAL ahora no: Con usuario sudo ejecutamos en la carpeta:
 
 Paso 12: Instalamos node
 
+Opcion 1:
+
+    export NVM_DIR="$([ -z "${XDG_CONFIG_HOME-}" ] && printf %s "${HOME}/.nvm" || printf %s "${XDG_CONFIG_HOME}/nvm")"
+[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh" # This loads nvm
+
+    nvm install vXX.YY.ZZ
+    
+    nvm use vXX.YY.ZZ
+    
+Opción 2:
     sudo pacman -Sy nodejs
 
 Paso 13: Para el futuro, no hacer: Borramos si teniamos Node
