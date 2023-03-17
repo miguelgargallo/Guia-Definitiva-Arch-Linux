@@ -26,7 +26,11 @@ Paso 5: Instalamos sudo, con pacman
 
 Paso 6: Para editar sudoers, instalamos vim y nano
 
-    pacman -S vim nano
+    pacman -S vim nano neovim
+
+Paso 6.1 opcional: Para RTX 2070 nvidia
+
+    pacman -S nvidia nvidia-settings
 
 Le decimos Y, luego enter.
 
