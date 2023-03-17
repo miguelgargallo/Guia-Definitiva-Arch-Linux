@@ -74,7 +74,7 @@ Paso 14: Para finalizar:
 
 Paso 15: Ejecutamos por si acaso:
 
-    pacman -Syu
+    sudo pacman -Syu
 
 Paso 16: Comprobamos que se ha instalado:
 
@@ -102,7 +102,7 @@ Paso 19: Seguido del comando source
     
 Paso 20: Instalar Yarn para repos de React
 
-    pacman -S yarn
+    sudo pacman -S yarn
 
 
 Siguiente capítulo:
