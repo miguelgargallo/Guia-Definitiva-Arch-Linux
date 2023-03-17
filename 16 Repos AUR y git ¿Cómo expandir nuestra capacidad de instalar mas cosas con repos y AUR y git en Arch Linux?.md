@@ -70,15 +70,11 @@ export NVM_DIR="$([ -z "${XDG_CONFIG_HOME-}" ] && printf %s "${HOME}/.nvm" || pr
 ```
 Después instalamos node con la version que queremos:
 
-    ```
     nvm install vXX.YY.ZZ
-    ```
     
 Y asignamos a la versión que queremos:
 
-    ```
     nvm use vXX.YY.ZZ
-    ```
     
 Opción 2:
 
