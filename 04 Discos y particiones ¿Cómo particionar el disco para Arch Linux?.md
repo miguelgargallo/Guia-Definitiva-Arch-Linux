@@ -46,7 +46,7 @@ Paso 3.1 Solo si no tenemos EFI, porque deseseamos partir de 0
 
 Paso 3.2 Formateamos:
 
-    mkfs.fat -F32 /dev/sda1
+    mkfs.fat -F32 /dev/nvme0n1p1
 
 Paso 3.3 Ponemos Type: EFI y le damos a write y seguimos creando particiones.
 
@@ -54,7 +54,7 @@ Paso 4: Nos dirigimosnos dirigimos a la opción de color verde que corresponde a
 
     512M
 
-Paso 5: Creamos otra partición, en estw caso, del total de la memória principal, es decir, "la tocha" -4.5gb.
+Paso 5: Creamos otra partición, en este caso, del total de la memória principal, es decir, "la tocha" 157G.
 
     157G
 
