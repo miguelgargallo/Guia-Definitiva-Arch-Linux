@@ -96,7 +96,7 @@ seguid de
 
 y reinicia
 
-    reboot now
+    sudo reboot now
 
 
 Siguiente capítulo:
