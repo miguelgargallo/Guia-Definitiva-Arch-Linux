@@ -2,7 +2,7 @@
 
 Paso 1: Instalamos xorg para la interfáz gráfica, cuidado, si solo deseamos instalar AwesomeWM ve directamente al paso 14!
 
-    pacman -S xorg xorg-server
+    sudo pacman -S xorg xorg-server
 
 le damos enter hasta que nos pregunte Y/n
 
@@ -12,7 +12,7 @@ Paso 2: Damos al enter con la tecla enter del teclado, y escrbimos "y" para acep
 
 Paso 3: Instalamos gnome:
 
-    pacman -S gnome
+    sudo pacman -S gnome
 
 Paso 4: Damos a enter a todo y luego "y"
 
@@ -41,7 +41,7 @@ Paso 9: Habilitamos para que a la hora de reiniciar, se inicie la interfaz:
 
 Paso 10: sino nos iba la terminal en el paso : Instalamos la terminal terminal kitty.
 
-    pacman -S kitty
+    sudo pacman -S kitty
 
 Paso 11: Instalamos si es portatil: (Opcional)
 
@@ -84,7 +84,7 @@ error: command failed to execute correctly
 
 Ejecutaremos:
 
-    pacman -S glibc lib32-glibc
+    sudo pacman -S glibc lib32-glibc
 
 Importante, si al acabar la guía no te sale la interfáz, no te preocupes, ejecuta:
 
