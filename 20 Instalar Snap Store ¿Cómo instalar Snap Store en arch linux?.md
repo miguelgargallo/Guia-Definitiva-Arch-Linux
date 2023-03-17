@@ -42,6 +42,7 @@ si nos sale un error de "too early, espera un minuto y vuelve, si le das a la fl
 
 Paso 7: Reiniciamos
 
+	sudo reboot now
 
 Siguiente capítulo:
 
