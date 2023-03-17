@@ -68,7 +68,7 @@ Paso 13: Para el futuro, no hacer: Borramos si teniamos Node
 
     sudo pacman -Rsc -n nodejs
 
-Paso 1r: Para finalizar:
+Paso 14: Para finalizar:
 
     sudo pacman -Sy npm
 
