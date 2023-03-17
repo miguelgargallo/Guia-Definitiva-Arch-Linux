@@ -1,5 +1,7 @@
 # 19 Instalar rust ¿Cómo instalar rust, cargo y bottom en arch linux?
 
+Si estas en root@ dale a exit
+
 Paso 1: Instalamos con pacman, Rust y le damos a enter si nos pregunta por alguna de las dos repos, rust y rustup community.
 
     pacman -S rust
