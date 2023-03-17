@@ -69,7 +69,7 @@ Paso 8: Nos desplazamos en el menú hasta la opción write y le damos a enter y 
     yes
 
   - Una de 512M
-  - Otra de el total de tu memoria, -4.5GB es decir, en mi caso 157GB
+  - El SO de 157GB
   - Y la última, de 4.5GB para el swap vram
 
 Así es como nos debe de quedar, pensad que nosotros partimos de este punto:
