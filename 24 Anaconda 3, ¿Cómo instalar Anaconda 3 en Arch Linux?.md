@@ -18,6 +18,9 @@ Paso 3: Ejecutamos el instalador, y le damos a enter y yes, cuando este nos lo p
 
     ./Anaconda3-2022.10-Linux-x86_64.sh
 
+Paso 4: Instalar el pip instalador de python:
+
+    sudo pacman -S python-pip
 
 FELICIDADES HAS LLEGADO AL FINAL DE LA GUIA!
 
