@@ -46,7 +46,7 @@ Paso 3.1 Solo si no tenemos EFI, porque deseseamos partir de 0
 
 Paso 3.2 Formateamos:
 
-    mkfs.fat -F32 /dev/nvme0n1p1
+    mkfs.fat -F 32 /dev/nvme0n1p1
 
 Paso 3.3 Ponemos Type: EFI y le damos a write y seguimos creando particiones.
 
