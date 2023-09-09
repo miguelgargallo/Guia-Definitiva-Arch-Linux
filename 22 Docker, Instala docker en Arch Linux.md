@@ -12,6 +12,10 @@ Paso 3: Comprobamos con la version de docker:
 
     docker -v
 
+La consola nos devolverá la versión de ese momento:
+
+    Docker version 24.0.5, build ced0996600
+
 Paso 4: Activamos el servicio:
 
     sudo systemctl start docker.service
