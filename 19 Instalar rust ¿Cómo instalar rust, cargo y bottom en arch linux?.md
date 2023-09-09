@@ -26,7 +26,7 @@ Paso 5: Ejecuta bottom
 
 Paso 6: Ejecuta tre
 
-    btm
+    tre
     
 
 
