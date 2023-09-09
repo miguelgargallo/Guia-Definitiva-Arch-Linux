@@ -16,7 +16,7 @@ Paso 3: Introducimos esta linea al final de todo, es el path the rust para el us
 
 Enter y listo
 
-Paso 4 Opcional): Instalaremos en la terminal, con cargo, bottom: (Visor mejorado de htop y visor de archivos mejorado de ls -la)
+Paso 4 (Opcional): Instalaremos en la terminal, con cargo, bottom: (Visor mejorado de htop y visor de archivos mejorado de ls -la)
 
     cargo install bottom tre
 
