@@ -30,7 +30,7 @@ Encontraremos blackarch entre los repositorios.
 
 Paso 7: Filtramos las categorias de las herramientas para no tener repeticiones en la lista de herramientas:
 
-    sudo pacman -Sgg | grep blackarch | awk '{print $1}' | sort -u | less
+    sudo pacman -Sgg | grep blackarch | awk '{print $1}' | sort -u
 
 Siguiente capítulo:
 
