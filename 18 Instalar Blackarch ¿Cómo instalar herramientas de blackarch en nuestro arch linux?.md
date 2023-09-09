@@ -18,23 +18,19 @@ Paso 4: Damos permisos de ejecución:
 
     chmod +x strap.sh
 
-Paso 5: Entramos como sudo su:
+Paso 5: Ejecutamos strap.sh
 
-    sudo su
+    sudo ./strap.sh
 
-Paso 6: Ejecutamos strap.sh
+Paso 6: Comprobamos con pacman -Sy:
 
-    ./strap.sh
-
-Paso 7: Comprobamos con pacman -Sy:
-
-    pacman -Sy
+    sudo pacman -Sy
 
 Encontraremos blackarch entre los repositorios.
 
-Paso 8: Filtramos las categorias de las herramientas para no tener repeticiones en la lista de herramientas:
+Paso 7: Filtramos las categorias de las herramientas para no tener repeticiones en la lista de herramientas:
 
-    pacman -Sgg | grep blackarch | awk '{print $1}' | sort -u | less
+    sudo pacman -Sgg | grep blackarch | awk '{print $1}' | sort -u | less
 
 Siguiente capítulo:
 
