@@ -6,19 +6,19 @@ Paso 1: Instalamos con pacman, Rust y le damos a enter si nos pregunta por algun
 
     sudo pacman -S rust
 
-Enter y listo
+Paso 2: Ajusta el recorrido, path: donde pone hagrid, pon tu nombre de usuario:
 
-Paso 2: Instalaremos en la terminal, con cargo, bottom:
+    sudo nano ~/.bashrc
 
-    cargo install bottom
-
-Paso 3: Ajusta el recorrido, path: donde pone hagrid, pon tu nombre de usuario:
-
-    nano ~/.bashrc
-
-Paso 4: Introducimos esta linea al final de todo, es el path the rust para el usuario en el que estamos, donde pone hagrid, pones tu nombre de usuario.
+Paso 3: Introducimos esta linea al final de todo, es el path the rust para el usuario en el que estamos, donde pone hagrid, pones tu nombre de usuario.
 
     export PATH="/home/TuNombreDeUsuario/.cargo/bin:$PATH"
+
+Enter y listo
+
+Paso 4: Instalaremos en la terminal, con cargo, bottom:
+
+    cargo install bottom
 
 Paso 5: Ejecuta bottom
 
