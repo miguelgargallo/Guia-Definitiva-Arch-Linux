@@ -28,19 +28,15 @@ Paso 6: Añadimos Docker al grupo:
 
     sudo usermod -aG docker $USER
 
-Paso 7: Docker compose
-
-    sudo su
-
-Paso 8: Instalamos docker compose
+Paso 7: Instalamos docker compose
 
     pacman -S docker-compose
 
-Paso 9: Comprobamos Docker Compose
+Paso 8: Comprobamos Docker Compose
 
     docker-compose version
 
-Paso 10: Extra, instalar certbot o letsencrypt:
+Paso 9: Extra, instalar certbot o letsencrypt:
 
     sudo pacman -S certbot
 
