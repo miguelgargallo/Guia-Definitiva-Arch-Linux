@@ -10,9 +10,13 @@ Paso 2: Ajusta el recorrido, path: donde pone hagrid, pon tu nombre de usuario:
 
     sudo nano ~/.bashrc
 
-Paso 3: Introducimos esta linea al final de todo, es el path the rust para el usuario en el que estamos, donde pone hagrid, pones tu nombre de usuario.
+Paso 3: te saldrá algo tal que así:
 
-    export PATH="/home/TuNombreDeUsuario/.cargo/bin:$PATH"
+    warning: be sure to add `/home/tuNombre/.cargo/bin` to your PATH to be able to run the installed binaries
+
+Vale, no te asustes solo cambia tuNombre por tu nombre de usuario y pegalo:
+
+    export PATH="/home/tuNombre/.cargo/bin:$PATH"
 
 Enter y listo
 
