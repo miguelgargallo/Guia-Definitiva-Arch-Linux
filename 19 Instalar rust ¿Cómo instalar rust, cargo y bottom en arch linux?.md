@@ -32,7 +32,7 @@ ahora ejecutas:
 
 Y colocas esto al final
 
-# Mis comandos
+    # Mis comandos
     alias nabash="nano ~/.bashrc"
     alias nebash="nvim ~/.bashrc"
     alias vibash="vim ~/.bashrc"
