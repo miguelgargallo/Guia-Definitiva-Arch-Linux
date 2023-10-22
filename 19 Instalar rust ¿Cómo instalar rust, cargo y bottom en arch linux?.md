@@ -86,12 +86,185 @@ Paso 5: Ejecuta bottom
 
     btm
 
+Qué es btm? Saca tus conclusiones
+
+![bottom en acción](https://github.com/miguelgargallo/Guia-Definitiva-Arch-Linux/assets/5947268/e4aab50f-c533-41f9-9a35-a8c8530bfc98)
+
+se sale con la 'q'
+
 Paso 6: Ejecuta tre
 
     tre
     
+¿Qué es tre? Flipa!
 
+El comando 'ls' vs el 'tre'
 
+```bash
+[hagrid@3651b0e01f8c ~]$ ls
+Desktop
+[hagrid@3651b0e01f8c ~]$ tre
+.
+└── Desktop
+    └── hagrid
+        └── repos
+            └── paru-bin
+                ├── PKGBUILD
+                ├── paru-bin-1.11.2-1-x86_64.pkg.tar.zst
+                ├── paru-v1.11.2-x86_64.tar.zst
+                ├── pkg
+                │   └── paru-bin
+                │       ├── etc
+                │       │   └── paru.conf
+                │       └── usr
+                │           ├── bin
+                │           │   └── paru
+                │           └── share
+                │               ├── bash-completion
+                │               │   └── completions
+                │               │       └── paru.bash
+                │               ├── fish
+                │               │   └── vendor_completions.d
+                │               │       └── paru.fish
+                │               ├── locale
+                │               │   ├── ca
+                │               │   │   └── LC_MESSAGES
+                │               │   │       └── paru.mo
+                │               │   ├── de
+                │               │   │   └── LC_MESSAGES
+                │               │   │       └── paru.mo
+                │               │   ├── es
+                │               │   │   └── LC_MESSAGES
+                │               │   │       └── paru.mo
+                │               │   ├── fi
+                │               │   │   └── LC_MESSAGES
+                │               │   │       └── paru.mo
+                │               │   ├── fr
+                │               │   │   └── LC_MESSAGES
+                │               │   │       └── paru.mo
+                │               │   ├── hi
+                │               │   │   └── LC_MESSAGES
+                │               │   │       └── paru.mo
+                │               │   ├── hr
+                │               │   │   └── LC_MESSAGES
+                │               │   │       └── paru.mo
+                │               │   ├── it
+                │               │   │   └── LC_MESSAGES
+                │               │   │       └── paru.mo
+                │               │   ├── ja
+                │               │   │   └── LC_MESSAGES
+                │               │   │       └── paru.mo
+                │               │   ├── ko
+                │               │   │   └── LC_MESSAGES
+                │               │   │       └── paru.mo
+                │               │   ├── nl
+                │               │   │   └── LC_MESSAGES
+                │               │   │       └── paru.mo
+                │               │   ├── pt
+                │               │   │   └── LC_MESSAGES
+                │               │   │       └── paru.mo
+                │               │   ├── pt_BR
+                │               │   │   └── LC_MESSAGES
+                │               │   │       └── paru.mo
+                │               │   ├── ro
+                │               │   │   └── LC_MESSAGES
+                │               │   │       └── paru.mo
+                │               │   ├── ru
+                │               │   │   └── LC_MESSAGES
+                │               │   │       └── paru.mo
+                │               │   ├── sv
+                │               │   │   └── LC_MESSAGES
+                │               │   │       └── paru.mo
+                │               │   ├── tr
+                │               │   │   └── LC_MESSAGES
+                │               │   │       └── paru.mo
+                │               │   ├── zh_CN
+                │               │   │   └── LC_MESSAGES
+                │               │   │       └── paru.mo
+                │               │   └── zh_TW
+                │               │       └── LC_MESSAGES
+                │               │           └── paru.mo
+                │               ├── man
+                │               │   ├── man5
+                │               │   │   └── paru.conf.5.gz
+                │               │   └── man8
+                │               │       └── paru.8.gz
+                │               └── zsh
+                │                   └── site-functions
+                │                       └── _paru
+                └── src
+                    ├── completions
+                    │   ├── bash
+                    │   ├── fish
+                    │   └── zsh
+                    ├── locale
+                    │   ├── ca
+                    │   │   └── LC_MESSAGES
+                    │   │       └── paru.mo
+                    │   ├── de
+                    │   │   └── LC_MESSAGES
+                    │   │       └── paru.mo
+                    │   ├── es
+                    │   │   └── LC_MESSAGES
+                    │   │       └── paru.mo
+                    │   ├── fi
+                    │   │   └── LC_MESSAGES
+                    │   │       └── paru.mo
+                    │   ├── fr
+                    │   │   └── LC_MESSAGES
+                    │   │       └── paru.mo
+                    │   ├── hi
+                    │   │   └── LC_MESSAGES
+                    │   │       └── paru.mo
+                    │   ├── hr
+                    │   │   └── LC_MESSAGES
+                    │   │       └── paru.mo
+                    │   ├── it
+                    │   │   └── LC_MESSAGES
+                    │   │       └── paru.mo
+                    │   ├── ja
+                    │   │   └── LC_MESSAGES
+                    │   │       └── paru.mo
+                    │   ├── ko
+                    │   │   └── LC_MESSAGES
+                    │   │       └── paru.mo
+                    │   ├── nl
+                    │   │   └── LC_MESSAGES
+                    │   │       └── paru.mo
+                    │   ├── pt
+                    │   │   └── LC_MESSAGES
+                    │   │       └── paru.mo
+                    │   ├── pt_BR
+                    │   │   └── LC_MESSAGES
+                    │   │       └── paru.mo
+                    │   ├── ro
+                    │   │   └── LC_MESSAGES
+                    │   │       └── paru.mo
+                    │   ├── ru
+                    │   │   └── LC_MESSAGES
+                    │   │       └── paru.mo
+                    │   ├── sv
+                    │   │   └── LC_MESSAGES
+                    │   │       └── paru.mo
+                    │   ├── tr
+                    │   │   └── LC_MESSAGES
+                    │   │       └── paru.mo
+                    │   ├── zh_CN
+                    │   │   └── LC_MESSAGES
+                    │   │       └── paru.mo
+                    │   └── zh_TW
+                    │       └── LC_MESSAGES
+                    │           └── paru.mo
+                    ├── man
+                    │   ├── paru.8
+                    │   └── paru.conf.5
+                    ├── paru
+                    ├── paru-v1.11.2-x86_64.tar.zst
+                    └── paru.conf
+
+Directories: 100, Files: 55, Symbolic Links: 1, Lines: 0
+[hagrid@3651b0e01f8c ~]$
+```
 
 Siguiente capítulo:
 
