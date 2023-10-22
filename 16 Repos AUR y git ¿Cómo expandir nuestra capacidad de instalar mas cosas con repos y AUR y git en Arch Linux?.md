@@ -18,7 +18,7 @@ Paso 3: Entramos con nuestro usuario, asi que salimos:
 
 Paso 4: En nuestro usuario, en desktop creamos una carpeta que se llame repos:
 
-    mkdir -p Desktop/hagrid/repos
+    mkdir -p Desktop/TuNombreDeUsuario/repos
 
 Paso 5: Entramos en la carpeta repos:
 
