@@ -10,7 +10,7 @@ Paso 2: Ajusta el recorrido, path: donde pone hagrid, pon tu nombre de usuario:
 
     sudo nano ~/.bashrc
 
-Paso 3: te saldrá algo tal que así: Sino te sale no te ralles, pongas nervioso y sigue la guía
+Paso 3: te saldrá algo tal que así: Sino te sale no pasa nada y sigue la guía
 
     warning: be sure to add `/home/tuNombre/.cargo/bin` to your PATH to be able to run the installed binaries
 
