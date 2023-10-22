@@ -38,6 +38,14 @@ Y colocas esto al final
     alias vibash="vim ~/.bashrc"
     # end Mis comandos
 
+En mi setup lo he dejado así:
+
+    # Mis comandos
+    alias nabash="nvim ~/.bashrc"
+    # alias nebash="nvim ~/.bashrc"
+    # alias vibash="vim ~/.bashrc"
+    # end Mis comandos
+
 ahora escribe en la consola, donde te de la gana!
 
     nabash
