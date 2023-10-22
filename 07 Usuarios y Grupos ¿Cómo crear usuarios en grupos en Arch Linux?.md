@@ -38,6 +38,12 @@ Paso 7: Editamos etc sudoers
 
     nano /etc/sudoers
 
+Paso 7.1: Clicarás dentro del nano, 'ctrl'+w y luego copiarás de esta guía:
+
+    %wheel ALL=(ALL:ALL) ALL
+
+Paso 7.2: Le darás a click a la ruedecita del ratón o botón central y presionarás enter, esto te llevará a la línea directamente.
+
 Paso 8: Descomentamos la linea de abajo a la que dice "## Uncomment to allow member of group wheel to execute any command".
 
     %wheel ALL=(ALL:ALL) ALL
