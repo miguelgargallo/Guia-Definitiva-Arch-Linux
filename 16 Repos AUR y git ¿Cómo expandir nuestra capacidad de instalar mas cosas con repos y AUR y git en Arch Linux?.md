@@ -114,6 +114,12 @@ y de:
 
 Paso 19: Seguido del comando source
 
+Paso 19 Pre aviso, mira lo que hago yo es seleccionar la fila de arriba y pegarla dando click botón central del mouse, como hicimos en previas unidades anteriores a esta [usuarios](https://github.com/miguelgargallo/Guia-Definitiva-Arch-Linux/blob/481eceb0239948bdf7c2face6a98f8ba1ce2f3aa/07%20Usuarios%20y%20Grupos%20%C2%BFC%C3%B3mo%20crear%20usuarios%20en%20grupos%20en%20Arch%20Linux%3F.md)
+
+Fíjate en la captura de pantalla:
+
+![Copia y pega dle comando en consola source /home/hagrid/.bashrc](https://github.com/miguelgargallo/Guia-Definitiva-Arch-Linux/assets/5947268/637f28b4-c921-45ec-9562-aeb751f8357a)
+
     source /home/TuNombreDeUsuario/.bashrc
     
 Paso 20: Instalar Yarn para repos de React
