@@ -36,7 +36,7 @@ Le decimos Y, luego enter.
 
 Paso 7: Editamos etc sudoers
 
-    nano /etc/sudoers
+    sudo nano /etc/sudoers
 
 Paso 8: Descomentamos la linea de abajo a la que dice "## Uncomment to allow member of group wheel to execute any command".
 
