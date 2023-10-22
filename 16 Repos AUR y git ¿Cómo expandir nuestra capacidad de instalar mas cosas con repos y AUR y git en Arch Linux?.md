@@ -118,7 +118,7 @@ Paso 19 Pre aviso, mira lo que hago yo es seleccionar la fila de arriba y pegarl
 
 Fíjate en la captura de pantalla:
 
-![Copia y pega dle comando en consola source /home/hagrid/.bashrc](https://github.com/miguelgargallo/Guia-Definitiva-Arch-Linux/assets/5947268/637f28b4-c921-45ec-9562-aeb751f8357a)
+![Copia y pega dle comando en consola source /home/hagrid/.bashrc](https://github.com/miguelgargallo/Guia-Definitiva-Arch-Linux/assets/5947268/4684d5d8-eb11-49e8-bbbd-2a531bb62d43)
 
     source /home/TuNombreDeUsuario/.bashrc
     
