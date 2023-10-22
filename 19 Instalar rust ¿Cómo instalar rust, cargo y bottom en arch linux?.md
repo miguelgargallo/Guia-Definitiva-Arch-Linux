@@ -10,11 +10,51 @@ Paso 2: Ajusta el recorrido, path: donde pone hagrid, pon tu nombre de usuario:
 
     sudo nano ~/.bashrc
 
-Paso 3: te saldrá algo tal que así: Sino te sale no pasa nada y sigue la guía
+¿Te gusta el archivo? Te voy a regalar algo:
+
+sal con 'ctrl' + x, si has tocado algo pon 'n' y enter
+
+escribe en la console aka "cli":
+
+    alias nabash="nano ~/.bashrc"
+
+luego si tenemos neovim
+
+    alias nebash="nvim ~/.bashrc"
+
+luego si queremos con vim
+
+    alias vibash="vim ~/.bashrc"
+
+ahora ejecutas:
+
+    sudo nano ~/.bashrc
+
+Y colocas esto al final
+
+# Mis comandos
+    alias nabash="nano ~/.bashrc"
+    alias nebash="nvim ~/.bashrc"
+    alias vibash="vim ~/.bashrc"
+    # end Mis comandos
+
+ahora escribe en la consola, donde te de la gana!
+
+    nabash
+
+y nunca más tendrás que acordarte de: 'sudo nano ~/.bashrc', lo comento porque esto "~" encontrarlo, y luego la barrita "\" o "/" y si va o no con "." es un tostón, para mas info sobre Alias consulta esta parte de mi guía que tienes al final de ALIAS! [Cómo ser un mago en tu Arch, también en Ubuntu](https://github.com/miguelgargallo/Guia-Definitiva-Arch-Linux/blob/2dba1c419237e849f58ad7c792d94a2b72666d02/95%20Alias%2C%20Comandos%20%C2%BFC%C3%B3mo%20ser%20un%20mago%20y%20ejecutar%20comandos%20en%20Arch%20Linux%3F.md)
+
+Sigamos
+
+Te saldrá algo tal que así: Sino te sale no pasa nada y sigue la guía
 
     warning: be sure to add `/home/tuNombre/.cargo/bin` to your PATH to be able to run the installed binaries
 
 Vale, no te asustes solo cambia tuNombre por tu nombre de usuario y pegalo:
+
+Aún así tendrás que ejecutar el paso 2
+
+Paso 3: Pon el contneido de abajo en el .bashrc
 
 Lo mismo que hicimos aquí de copiar y pegar de la consola: [Ve al paso 19 de la captura de pantalla pero hazlo con el path de rust](https://github.com/miguelgargallo/Guia-Definitiva-Arch-Linux/blob/3bda14a84b1869bf1099abbf078f347a129897f8/16%20Repos%20AUR%20y%20git%20%C2%BFC%C3%B3mo%20expandir%20nuestra%20capacidad%20de%20instalar%20mas%20cosas%20con%20repos%20y%20AUR%20y%20git%20en%20Arch%20Linux%3F.md)
 
