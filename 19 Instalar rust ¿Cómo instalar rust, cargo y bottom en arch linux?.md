@@ -16,7 +16,7 @@ Paso 3: te saldrá algo tal que así:
 
 Vale, no te asustes solo cambia tuNombre por tu nombre de usuario y pegalo:
 
-Lo mismo que hicimos aquí de copiar y pegar de la consola: [Ve al paso de la captura de pantalla pero hazlo con el path de rust](https://github.com/miguelgargallo/Guia-Definitiva-Arch-Linux/blob/3bda14a84b1869bf1099abbf078f347a129897f8/16%20Repos%20AUR%20y%20git%20%C2%BFC%C3%B3mo%20expandir%20nuestra%20capacidad%20de%20instalar%20mas%20cosas%20con%20repos%20y%20AUR%20y%20git%20en%20Arch%20Linux%3F.md)
+Lo mismo que hicimos aquí de copiar y pegar de la consola: [Ve al paso 19 de la captura de pantalla pero hazlo con el path de rust](https://github.com/miguelgargallo/Guia-Definitiva-Arch-Linux/blob/3bda14a84b1869bf1099abbf078f347a129897f8/16%20Repos%20AUR%20y%20git%20%C2%BFC%C3%B3mo%20expandir%20nuestra%20capacidad%20de%20instalar%20mas%20cosas%20con%20repos%20y%20AUR%20y%20git%20en%20Arch%20Linux%3F.md)
 
     export PATH="/home/tuNombre/.cargo/bin:$PATH"
 
